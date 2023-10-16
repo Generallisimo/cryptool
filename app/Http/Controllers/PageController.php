@@ -143,5 +143,13 @@ class PageController extends Controller
     public function crypmembers(){
         return view('pages.crypmembers');
     }
+        /**
+     * Display upgrade page
+     *
+     * @return \Illuminate\View\View
+     */
+    public function crypshare(){
+        return view('pages.crypshare');
+    }
 
 }

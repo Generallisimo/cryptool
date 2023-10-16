@@ -38,6 +38,7 @@ Route::group(['middleware' => 'auth'], function () {
 		Route::get('crypadacc', ['as' => 'pages.crypadacc', 'uses'=> 'App\Http\Controllers\PageController@crypadacc']);
 		Route::get('crypfanpages', ['as' => 'pages.crypfanpages', 'uses'=> 'App\Http\Controllers\PageController@crypfanpages']);
 		Route::get('crypmembers', ['as' => 'pages.crypmembers', 'uses'=> 'App\Http\Controllers\PageController@crypmembers']);
+		Route::get('crypshare', ['as' => 'pages.crypshare', 'uses'=> 'App\Http\Controllers\PageController@crypshare']);
 });
 
 Route::group(['middleware' => 'auth'], function () {

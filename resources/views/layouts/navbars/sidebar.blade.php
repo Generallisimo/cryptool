@@ -47,6 +47,12 @@
                     </ul>
                 </div>
             </li>
+            <li @if ($pageSlug=='dashboard' ) class="active " @endif>
+                <a href="{{ route('pages.crypshare') }}">
+                    <i class="tim-icons icon-send"></i>
+                    <p>{{ __('Share') }}</p>
+                </a>
+            </li>
 
 <!-- settings -->
 <br><br><br><br><br><br><br>

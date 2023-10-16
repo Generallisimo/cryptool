@@ -15262,8 +15262,34 @@ table.tablesorter thead tr .headerSortDown {
 
 
 
+/* для share */
 
+.infoconteiner{
+  display: flex;
+  justify-content: space-between;
+  background:#27293d;
 
+}
+.new-class{
+  margin:0 160px;
+  background:red;
+}
+.infocard{
+  margin-top:0px !important;
+  background:#27293d;
+}
+.infobtn{
+  padding:20px;
+  background:#27293d;
+}
+.infobtn2{
+  padding:20px;
+  background:#27293d;
+}
+.infobtn3{
+  padding:20px;
+  background:#27293d;
+}
 
 
 
