@@ -15267,7 +15267,7 @@ table.tablesorter thead tr .headerSortDown {
 .infoconteiner{
   display: flex;
   justify-content: space-between;
-  background:#27293d;
+  /* background:#27293d; */
 
 }
 .new-class{
@@ -15279,16 +15279,34 @@ table.tablesorter thead tr .headerSortDown {
   background:#27293d;
 }
 .infobtn{
-  padding:20px;
+  /* padding:20px; */
   background:#27293d;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .infobtn2{
-  padding:20px;
+  /* padding:20px; */
   background:#27293d;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .infobtn3{
-  padding:20px;
+  /* padding:20px; */
   background:#27293d;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+#button1{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+#button2{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+#button3{
+  margin-top:0px;
+  margin-bottom:0px;
 }
 
 

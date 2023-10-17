@@ -5,13 +5,13 @@
 <div class="container">
     <div id="infoconteiner" class=" mt-5 infoconteiner">
         <div id="infobtn" class="infobtn">
-            <a id="button1" class="btn btn-primary" style="color: white;">SOC</a>
+            <a id="button1" class="btn btn-default" style="color: white;border-radius:5px !important">SOC</a>
         </div>
         <div id="infobtn2" class="infobtn2">
-            <a id="button2" class="btn btn-primary" style="color: white;">BM</a>
+            <a id="button2" class="btn btn-default" style="color: white;border-radius:5px !important">BM</a>
         </div>
         <div id="infobtn3" class="infobtn3">
-            <a id="button3" class="btn btn-primary" style="color: white;">FAN Pages</a>
+            <a id="button3" class="btn btn-default" style="color: white;border-radius:5px !important">FAN Pages</a>
         </div>
     </div>
     <div id="info" class="mt-4 infocard" style="display: none;">
@@ -143,6 +143,8 @@
 
             infoconteiner.appendChild(infobtnstart);
             infobtnstart.appendChild(infobtn);
+            
+            infobtnstart.style.width = ('70%')
 
             infoconteiner.appendChild(infobtnend);
             infobtnend.appendChild(infobtn2);
@@ -151,8 +153,8 @@
             infoconteiner.style.justifyContent = ('space-between')
             infobtnend.style.display = ('flex')
 
-            button1.classList.remove('btn-primary');
-            button1.classList.add('btn-danger');
+            button1.classList.remove('btn-default');
+            button1.classList.add('btn-primary');
 
             // Показываем информацию
             info.style.display = 'block';
@@ -166,17 +168,19 @@
             if (infoconteiner.contains(infobtnstart2)) {
                 infoconteiner.removeChild(infobtnstart2);
                 infoconteiner.removeChild(infobtnend2);
+
                 info2.style.display = 'none';
                 info3.style.display = 'none';
-                button2.classList.remove('btn-danger');
-                button3.classList.remove('btn-danger');
-                button2.classList.add('btn-primary');
-                button3.classList.add('btn-primary');
+
+                button2.classList.remove('btn-primary');
+                button3.classList.remove('btn-primary');
+                button2.classList.add('btn-default');
+                button3.classList.add('btn-default');
             }
             if (info2.style.display = 'block') {
                 info2.style.display = 'none';
-                button2.classList.remove('btn-danger');
-                button2.classList.add('btn-primary');
+                button2.classList.remove('btn-primary');
+                button2.classList.add('btn-default');
             }
 
         } else {
@@ -184,11 +188,13 @@
             infoconteiner.appendChild(infobtn2);
             infoconteiner.appendChild(infobtn3);
 
+            infobtn2.style.width = ('')
+            
             infoconteiner.removeChild(infobtnstart);
             infoconteiner.removeChild(infobtnend);
 
-            button1.classList.remove('btn-danger');
-            button1.classList.add('btn-primary');
+            button1.classList.remove('btn-primary');
+            button1.classList.add('btn-default');
 
             info.style.display = 'none';
 
@@ -200,10 +206,13 @@
 
     button2.addEventListener('click', () => {
         if (!isButton2Clicked) {
+            infobtn2.style.width = ('70%')
+            infobtn2.style.textAlign = ('center')
+
             info2.style.display = 'block';
 
-            button2.classList.add('btn-danger');
-            button2.classList.remove('btn-primary');
+            button2.classList.add('btn-primary');
+            button2.classList.remove('btn-default');
 
             isButton2Clicked = true; // Устанавливаем флаг, что кнопка была нажата
 
@@ -219,8 +228,8 @@
                 infoconteiner.removeChild(infobtnstart);
                 infoconteiner.removeChild(infobtnend);
                 info.style.display = 'none';
-                button1.classList.remove('btn-danger');
-                button1.classList.add('btn-primary');
+                button1.classList.remove('btn-primary');
+                button1.classList.add('btn-default');
             }
             if (infoconteiner.contains(infobtnstart2)) {
                 infoconteiner.appendChild(infobtn);
@@ -229,16 +238,18 @@
                 infoconteiner.removeChild(infobtnstart2);
                 infoconteiner.removeChild(infobtnend2);
                 info3.style.display = 'none';
-                button3.classList.remove('btn-danger');
-                button3.classList.add('btn-primary');
+                button3.classList.remove('btn-primary');
+                button3.classList.add('btn-default');
             }
 
 
         } else {
             info2.style.display = 'none';
+            
+            infobtn2.style.width = ('')
 
-            button2.classList.remove('btn-danger');
-            button2.classList.add('btn-primary');
+            button2.classList.remove('btn-primary');
+            button2.classList.add('btn-default');
 
             isButton2Clicked = false; // Сбрасываем флаг, что кнопка была нажата
         }
@@ -254,12 +265,15 @@
 
             infoconteiner.appendChild(infobtnend2);
             infobtnend2.appendChild(infobtn3);
+            
+            infobtnend2.style.width = ('70%')
+            infobtnend2.style.textAlign = ('end')
 
             infoconteiner.style.justifyContent = ('space-between')
             infobtnstart2.style.display = ('flex')
 
-            button3.classList.add('btn-danger');
-            button3.classList.remove('btn-primary');
+            button3.classList.add('btn-primary');
+            button3.classList.remove('btn-default');
 
             // Показываем информацию
             info3.style.display = 'block';
@@ -275,13 +289,13 @@
                 infoconteiner.removeChild(infobtnstart);
                 infoconteiner.removeChild(infobtnend);
                 info.style.display = 'none';
-                button1.classList.remove('btn-danger');
-                button1.classList.add('btn-primary');
+                button1.classList.remove('btn-primary');
+                button1.classList.add('btn-default');
             }
             if (info2.style.display = 'block') {
                 info2.style.display = 'none';
-                button2.classList.remove('btn-danger');
-                button2.classList.add('btn-primary');
+                button2.classList.remove('btn-primary');
+                button2.classList.add('btn-default');
             }
 
         } else {
@@ -292,13 +306,18 @@
             infoconteiner.removeChild(infobtnstart2);
             infoconteiner.removeChild(infobtnend2);
 
-            button3.classList.remove('btn-danger');
-            button3.classList.add('btn-primary');
+            button3.classList.remove('btn-primary');
+            button3.classList.add('btn-default');
+
+            infobtn2.style.width = ('')
 
             info3.style.display = 'none';
 
             isButton3Clicked = false; // Сбрасываем флаг, что кнопка была нажата
         }
+    });
+    document.addEventListener("DOMContentLoaded", function() {
+        button1.click();
     });
 </script>
 @endpush
