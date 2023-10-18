@@ -203,7 +203,7 @@
                                 </div>
                             </td>
                             <td class="my-td">
-                                <ul style="list-style-type: none;">
+                                <ul style="list-style-type: none;display: grid !important;  text-align: center;">
                                     <li>
                                         <a href="{{ route('pages.crypprofileacc') }}">
                                             tara5wcbrenda | 8
@@ -246,7 +246,7 @@
                                 </div>
                             </td>
                             <td class="my-td">
-                                <ul style="list-style-type: none;">
+                                <ul style="list-style-type: none; display: grid !important;  text-align: center;">
                                     <li>
                                         <a href="{{ route('pages.crypprofileacc') }}">
                                             tara5wcbrenda | 8
