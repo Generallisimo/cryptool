@@ -17,409 +17,409 @@
             </div>
             <div class="card-body">
 
-                <div class="table-container">
-                    <div class="table">
-                        <div class="table-row table-header">
-                            <div class="table-cell">Name</div>
-                            <div class="table-cell">Notes</div>
-                            <div class="table-cell">Status</div>
-                            <div class="table-cell">Buyers</div>
-                            <div class="table-cell">Seller</div>
-                            <div class="table-cell">ID</div>
-                            <div class="table-cell">Login</div>
-                            <div class="table-cell">Pass_FB</div>
-                            <div class="table-cell">Pass_Mail</div>
-                            <div class="table-cell">Getnada</div>
-                            <div class="table-cell">2fa</div>
-                            <div class="table-cell">Date</div>
-                            <div class="table-cell">Country</div>
-                            <div class="table-cell">Cost</div>
+                <div class="talbe-container">
+                    <div class="talbe">
+                        <div class="talbe-row talbe-header">
+                            <div class="talbe-cell">Name</div>
+                            <div class="talbe-cell">Notes</div>
+                            <div class="talbe-cell">Status</div>
+                            <div class="talbe-cell">Buyers</div>
+                            <div class="talbe-cell">Seller</div>
+                            <div class="talbe-cell">ID</div>
+                            <div class="talbe-cell">Login</div>
+                            <div class="talbe-cell">Pass_FB</div>
+                            <div class="talbe-cell">Pass_Mail</div>
+                            <div class="talbe-cell">Getnada</div>
+                            <div class="talbe-cell">2fa</div>
+                            <div class="talbe-cell">Date</div>
+                            <div class="talbe-cell">Country</div>
+                            <div class="talbe-cell">Cost</div>
                             <!-- Добавьте остальные заголовки столбцов здесь -->
                         </div>
                         <div class="d-block mt-5 mb-5">
 
-                            <div class="table-row buyer-table">
-                                <div class="table-cell buyers">
+                            <div class="talbe-row buyer-talbe">
+                                <div class="talbe-cell buyers">
                                     <a>
                                         <i class="fas fa-chevron-right arrow-icon"></i>  Admin
                                     </a>
                                 </div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
 
                                 <!-- Добавьте соответствующие значения столбцов здесь -->
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
                                     delsievenita5g | 5
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     соц умер + 16 фп мертвые
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Fix
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     -
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     100008206601717
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g@hotmail.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Kudua24.changepassokQTpqeP
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     sq891Ro15
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g300871@getnada.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IZY4YZHTSMNJAUY7QDZ47TYWR3RJHGIN
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     09/10/2002
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IND
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $6.09
                                 </div>
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
                                     delsievenita5g | 5
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     соц умер + 16 фп мертвые
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Fix
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     -
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     100008206601717
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g@hotmail.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Kudua24.changepassokQTpqeP
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     sq891Ro15
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g300871@getnada.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IZY4YZHTSMNJAUY7QDZ47TYWR3RJHGIN
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     09/10/2002
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IND
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $6.09
                                 </div>
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
                                     delsievenita5g | 5
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     соц умер + 16 фп мертвые
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Fix
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     -
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     100008206601717
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g@hotmail.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Kudua24.changepassokQTpqeP
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     sq891Ro15
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g300871@getnada.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IZY4YZHTSMNJAUY7QDZ47TYWR3RJHGIN
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     09/10/2002
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IND
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $6.09
                                 </div>
                             </div>
                         </div>
                         <div class="d-block mb-5">
 
-                            <div class="table-row buyer-table">
-                                <div class="table-cell buyers">
+                            <div class="talbe-row buyer-talbe">
+                                <div class="talbe-cell buyers">
                                     <a>
                                         <i class="fas fa-chevron-right arrow-icon"></i>  Root
                                     </a>
                                 </div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
 
                                 <!-- Добавьте соответствующие значения столбцов здесь -->
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
                                     delsievenita5g | 5
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     соц умер + 16 фп мертвые
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Fix
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     -
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     100008206601717
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g@hotmail.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Kudua24.changepassokQTpqeP
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     sq891Ro15
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g300871@getnada.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IZY4YZHTSMNJAUY7QDZ47TYWR3RJHGIN
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     09/10/2002
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IND
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $6.09
                                 </div>
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
                                     delsievenita5g | 5
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     соц умер + 16 фп мертвые
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Fix
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     -
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     100008206601717
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g@hotmail.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Kudua24.changepassokQTpqeP
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     sq891Ro15
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g300871@getnada.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IZY4YZHTSMNJAUY7QDZ47TYWR3RJHGIN
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     09/10/2002
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IND
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $6.09
                                 </div>
                             </div>
                         </div>
 
                         <div class="d-block mb-5">
-                            <div class="table-row buyer-table">
-                                <div class="table-cell buyers">
+                            <div class="talbe-row buyer-talbe">
+                                <div class="talbe-cell buyers">
                                     <a>
                                         <i class="fas fa-chevron-right arrow-icon"></i>  Poli
                                     </a>
                                 </div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
 
                                 <!-- Добавьте соответствующие значения столбцов здесь -->
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
                                     delsievenita5g | 5
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     соц умер + 16 фп мертвые
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Fix
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     -
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     100008206601717
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g@hotmail.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Kudua24.changepassokQTpqeP
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     sq891Ro15
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g300871@getnada.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IZY4YZHTSMNJAUY7QDZ47TYWR3RJHGIN
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     09/10/2002
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IND
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $6.09
                                 </div>
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
                                     delsievenita5g | 5
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     соц умер + 16 фп мертвые
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Fix
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     -
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     100008206601717
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g@hotmail.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Kudua24.changepassokQTpqeP
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     sq891Ro15
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     delsievenita5g300871@getnada.com
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IZY4YZHTSMNJAUY7QDZ47TYWR3RJHGIN
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     09/10/2002
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     IND
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $6.09
                                 </div>
                             </div>
                         </div>
-                        <!-- Повторите блок .table-row для каждой строки таблицы -->
+                        <!-- Повторите блок .talbe-row для каждой строки таблицы -->
                     </div>
                 </div>
 

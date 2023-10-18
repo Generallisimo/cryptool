@@ -19,113 +19,113 @@
             </div>
             <div class="card-body">
 
-                <div class="table-container">
-                    <div class="table3">
-                        <div class="table-row table-header">
-                            <div class="table-cell">Main Profile</div>
-                            <div class="table-cell">Fan Name</div>
-                            <div class="table-cell">ID</div>
-                            <div class="table-cell">Type</div>
-                            <div class="table-cell">Status</div>
-                            <div class="table-cell">Doc</div>
-                            <div class="table-cell">Buyers</div>
-                            <div class="table-cell">Price</div>
+                <div class="talbe-container">
+                    <div class="talbe3">
+                        <div class="talbe-row talbe-header">
+                            <div class="talbe-cell">Main Profile</div>
+                            <div class="talbe-cell">Fan Name</div>
+                            <div class="talbe-cell">ID</div>
+                            <div class="talbe-cell">Type</div>
+                            <div class="talbe-cell">Status</div>
+                            <div class="talbe-cell">Doc</div>
+                            <div class="talbe-cell">Buyers</div>
+                            <div class="talbe-cell">Price</div>
                             <!-- Добавьте остальные заголовки столбцов здесь -->
                         </div>
                         <div class="d-block mt-5 mb-5">
 
-                            <div class="table-row buyer-table">
-                                <div class="table-cell buyers">
+                            <div class="talbe-row buyer-talbe">
+                                <div class="talbe-cell buyers">
                                     <a>
                                         <i class="fas fa-chevron-right arrow-icon"></i> hanneyballaq|1
                                     </a>
                                 </div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
                                 
 
                                 <!-- Добавьте соответствующие значения столбцов здесь -->
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
 
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Aussies Notes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     107567675173172
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     new
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     ЗРД
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Yes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $16
                                 </div>
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
 
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Aussies Notes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     107567675173172
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     new
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     ЗРД
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Yes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $16
                                 </div>
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
 
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Aussies Notes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     107567675173172
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     new
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     ЗРД
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Yes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $16
                                 </div>
                             </div>
@@ -133,72 +133,72 @@
                         </div>
                         <div class="d-block mt-5 mb-5">
 
-                            <div class="table-row buyer-table">
-                                <div class="table-cell buyers">
+                            <div class="talbe-row buyer-talbe">
+                                <div class="talbe-cell buyers">
                                     <a>
                                         <i class="fas fa-chevron-right arrow-icon"></i> hanneyballaq|1
                                     </a>
                                 </div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
                                 
 
                                 <!-- Добавьте соответствующие значения столбцов здесь -->
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
 
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Aussies Notes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     107567675173172
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     new
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     ЗРД
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Yes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $16
                                 </div>
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
 
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Aussies Notes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     107567675173172
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     new
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     ЗРД
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Yes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $16
                                 </div>
                             </div>
@@ -206,72 +206,72 @@
                         </div>
                         <div class="d-block mt-5 mb-5">
 
-                            <div class="table-row buyer-table">
-                                <div class="table-cell buyers">
+                            <div class="talbe-row buyer-talbe">
+                                <div class="talbe-cell buyers">
                                     <a>
                                         <i class="fas fa-chevron-right arrow-icon"></i> hanneyballaq|1
                                     </a>
                                 </div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
-                                <div class="table-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
+                                <div class="talbe-cell"></div>
                                 
 
                                 <!-- Добавьте соответствующие значения столбцов здесь -->
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
 
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Aussies Notes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     107567675173172
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     new
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     ЗРД
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Yes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $16
                                 </div>
                             </div>
-                            <div class="table-row hidden hidden-table" style="display: none;">
-                                <div class="table-cell">
+                            <div class="talbe-row hidden hidden-talbe" style="display: none;">
+                                <div class="talbe-cell">
 
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Aussies Notes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     107567675173172
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     new
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     ЗРД
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Yes
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     Poli
                                 </div>
-                                <div class="table-cell">
+                                <div class="talbe-cell">
                                     $16
                                 </div>
                             </div>
@@ -279,7 +279,7 @@
                         </div>
 
 
-                        <!-- Повторите блок .table-row для каждой строки таблицы -->
+                        <!-- Повторите блок .talbe-row для каждой строки таблицы -->
                     </div>
                 </div>
 
