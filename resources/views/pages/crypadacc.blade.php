@@ -8,57 +8,811 @@
             <div class="card-header">
                 <div class="row">
                     <div class="col-8">
-                        <h4 class="card-title">Users</h4>
+                        <!-- <h4 class="card-title">Users</h4> -->
                     </div>
                     <div class="col-4 text-right">
-                        <a href="#" class="btn btn-sm btn-primary">Add user</a>
+                        <!-- <a href="#" class="btn btn-sm btn-primary">Add user</a> -->
                     </div>
                 </div>
             </div>
             <div class="card-body">
-                <div class="">
-                    <table class="table tablesorter " id="">
-                        <thead class=" text-primary">
-                            <tr>
-                                <th scope="col">Name</th>
-                                <th scope="col">Email</th>
-                                <th scope="col">Creation Date</th>
-                                <th scope="col"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Admin Admin</td>
-                                <td>
-                                    <a href="mailto:admin@black.com">admin@black.com</a>
-                                </td>
-                                <td>24/02/2020 16:47</td>
-                                <td class="text-right">
-                                    <div class="dropdown">
-                                        <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="fas fa-ellipsis-v"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                            <a class="dropdown-item" href="#">Edit</a>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+
+                <div class="table-container">
+                    <div class="table2">
+                        <div class="table-row table-header">
+                            <div class="table-cell">Name</div>
+                            <div class="table-cell">Pixel id</div>
+                            <div class="table-cell">when change</div>
+                            <div class="table-cell">Notes</div>
+                            <div class="table-cell">Account Tzone</div>
+                            <div class="table-cell">stat</div>
+                            <div class="table-cell">Status acc</div>
+                            <div class="table-cell">acc seller</div>
+                            <div class="table-cell">acc owner</div>
+                            <div class="table-cell">Spend</div>
+                            <div class="table-cell">who change</div>
+                            <div class="table-cell">Name BM</div>
+                            <div class="table-cell">Records</div>
+                            <div class="table-cell">Social Profile</div>
+                            <div class="table-cell">Unbilled</div>
+                            <div class="table-cell">FB Access status</div>
+                            <div class="table-cell">Date</div>
+                            <div class="table-cell">TAX Rate</div>
+                            <div class="table-cell">TAX Billed</div>
+                            <div class="table-cell">Disable Reason</div>
+                            <!-- Добавьте остальные заголовки столбцов здесь -->
+                        </div>
+
+
+
+                            <div class="table-row hidden hidden-table" >
+                                <div class="table-cell">
+                                    431935986858222 431935986858222
+                                </div>
+                                <div class="table-cell">
+                                    653916486492856
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    theerini2 | 15 / AdsPower
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    need to setup
+                                </div>
+                                <div class="table-cell">
+                                    280
+                                </div>
+                                <div class="table-cell">
+                                    HIU
+                                </div>
+                                <div class="table-cell">
+                                    Poli
+                                </div>
+                                <div class="table-cell">
+                                    $0.00                                    
+                                </div>
+                                <div class="table-cell">
+                                    Pain
+                                </div>
+                                <div class="table-cell">
+                                    Social                                    
+                                </div>
+                                <div class="table-cell">
+                                   
+                                </div>
+                                <div class="table-cell">
+                                    https://www.facebook.com/gurudev.mahakud.92/
+                                </div>
+                                <div class="table-cell">
+                                    $0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    0%
+                                </div>
+                                <div class="table-cell">
+                                    0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="table-row hidden hidden-table" >
+                                <div class="table-cell">
+                                    431935986858222 431935986858222
+                                </div>
+                                <div class="table-cell">
+                                    653916486492856
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    theerini2 | 15 / AdsPower
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    need to setup
+                                </div>
+                                <div class="table-cell">
+                                    280
+                                </div>
+                                <div class="table-cell">
+                                    HIU
+                                </div>
+                                <div class="table-cell">
+                                    Poli
+                                </div>
+                                <div class="table-cell">
+                                    $0.00                                    
+                                </div>
+                                <div class="table-cell">
+                                    Pain
+                                </div>
+                                <div class="table-cell">
+                                    Social                                    
+                                </div>
+                                <div class="table-cell">
+                                   
+                                </div>
+                                <div class="table-cell">
+                                    https://www.facebook.com/gurudev.mahakud.92/
+                                </div>
+                                <div class="table-cell">
+                                    $0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    0%
+                                </div>
+                                <div class="table-cell">
+                                    0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="table-row hidden hidden-table" >
+                                <div class="table-cell">
+                                    431935986858222 431935986858222
+                                </div>
+                                <div class="table-cell">
+                                    653916486492856
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    theerini2 | 15 / AdsPower
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    need to setup
+                                </div>
+                                <div class="table-cell">
+                                    280
+                                </div>
+                                <div class="table-cell">
+                                    HIU
+                                </div>
+                                <div class="table-cell">
+                                    Poli
+                                </div>
+                                <div class="table-cell">
+                                    $0.00                                    
+                                </div>
+                                <div class="table-cell">
+                                    Pain
+                                </div>
+                                <div class="table-cell">
+                                    Social                                    
+                                </div>
+                                <div class="table-cell">
+                                   
+                                </div>
+                                <div class="table-cell">
+                                    https://www.facebook.com/gurudev.mahakud.92/
+                                </div>
+                                <div class="table-cell">
+                                    $0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    0%
+                                </div>
+                                <div class="table-cell">
+                                    0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="table-row hidden hidden-table" >
+                                <div class="table-cell">
+                                    431935986858222 431935986858222
+                                </div>
+                                <div class="table-cell">
+                                    653916486492856
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    theerini2 | 15 / AdsPower
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    need to setup
+                                </div>
+                                <div class="table-cell">
+                                    280
+                                </div>
+                                <div class="table-cell">
+                                    HIU
+                                </div>
+                                <div class="table-cell">
+                                    Poli
+                                </div>
+                                <div class="table-cell">
+                                    $0.00                                    
+                                </div>
+                                <div class="table-cell">
+                                    Pain
+                                </div>
+                                <div class="table-cell">
+                                    Social                                    
+                                </div>
+                                <div class="table-cell">
+                                   
+                                </div>
+                                <div class="table-cell">
+                                    https://www.facebook.com/gurudev.mahakud.92/
+                                </div>
+                                <div class="table-cell">
+                                    $0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    0%
+                                </div>
+                                <div class="table-cell">
+                                    0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="table-row hidden hidden-table" >
+                                <div class="table-cell">
+                                    431935986858222 431935986858222
+                                </div>
+                                <div class="table-cell">
+                                    653916486492856
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    theerini2 | 15 / AdsPower
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    need to setup
+                                </div>
+                                <div class="table-cell">
+                                    280
+                                </div>
+                                <div class="table-cell">
+                                    HIU
+                                </div>
+                                <div class="table-cell">
+                                    Poli
+                                </div>
+                                <div class="table-cell">
+                                    $0.00                                    
+                                </div>
+                                <div class="table-cell">
+                                    Pain
+                                </div>
+                                <div class="table-cell">
+                                    Social                                    
+                                </div>
+                                <div class="table-cell">
+                                   
+                                </div>
+                                <div class="table-cell">
+                                    https://www.facebook.com/gurudev.mahakud.92/
+                                </div>
+                                <div class="table-cell">
+                                    $0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    0%
+                                </div>
+                                <div class="table-cell">
+                                    0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="table-row hidden hidden-table" >
+                                <div class="table-cell">
+                                    431935986858222 431935986858222
+                                </div>
+                                <div class="table-cell">
+                                    653916486492856
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    theerini2 | 15 / AdsPower
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    need to setup
+                                </div>
+                                <div class="table-cell">
+                                    280
+                                </div>
+                                <div class="table-cell">
+                                    HIU
+                                </div>
+                                <div class="table-cell">
+                                    Poli
+                                </div>
+                                <div class="table-cell">
+                                    $0.00                                    
+                                </div>
+                                <div class="table-cell">
+                                    Pain
+                                </div>
+                                <div class="table-cell">
+                                    Social                                    
+                                </div>
+                                <div class="table-cell">
+                                   
+                                </div>
+                                <div class="table-cell">
+                                    https://www.facebook.com/gurudev.mahakud.92/
+                                </div>
+                                <div class="table-cell">
+                                    $0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    0%
+                                </div>
+                                <div class="table-cell">
+                                    0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="table-row hidden hidden-table" >
+                                <div class="table-cell">
+                                    431935986858222 431935986858222
+                                </div>
+                                <div class="table-cell">
+                                    653916486492856
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    theerini2 | 15 / AdsPower
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    need to setup
+                                </div>
+                                <div class="table-cell">
+                                    280
+                                </div>
+                                <div class="table-cell">
+                                    HIU
+                                </div>
+                                <div class="table-cell">
+                                    Poli
+                                </div>
+                                <div class="table-cell">
+                                    $0.00                                    
+                                </div>
+                                <div class="table-cell">
+                                    Pain
+                                </div>
+                                <div class="table-cell">
+                                    Social                                    
+                                </div>
+                                <div class="table-cell">
+                                   
+                                </div>
+                                <div class="table-cell">
+                                    https://www.facebook.com/gurudev.mahakud.92/
+                                </div>
+                                <div class="table-cell">
+                                    $0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    0%
+                                </div>
+                                <div class="table-cell">
+                                    0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="table-row hidden hidden-table" >
+                                <div class="table-cell">
+                                    431935986858222 431935986858222
+                                </div>
+                                <div class="table-cell">
+                                    653916486492856
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    theerini2 | 15 / AdsPower
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    need to setup
+                                </div>
+                                <div class="table-cell">
+                                    280
+                                </div>
+                                <div class="table-cell">
+                                    HIU
+                                </div>
+                                <div class="table-cell">
+                                    Poli
+                                </div>
+                                <div class="table-cell">
+                                    $0.00                                    
+                                </div>
+                                <div class="table-cell">
+                                    Pain
+                                </div>
+                                <div class="table-cell">
+                                    Social                                    
+                                </div>
+                                <div class="table-cell">
+                                   
+                                </div>
+                                <div class="table-cell">
+                                    https://www.facebook.com/gurudev.mahakud.92/
+                                </div>
+                                <div class="table-cell">
+                                    $0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    0%
+                                </div>
+                                <div class="table-cell">
+                                    0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="table-row hidden hidden-table" >
+                                <div class="table-cell">
+                                    431935986858222 431935986858222
+                                </div>
+                                <div class="table-cell">
+                                    653916486492856
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    theerini2 | 15 / AdsPower
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    need to setup
+                                </div>
+                                <div class="table-cell">
+                                    280
+                                </div>
+                                <div class="table-cell">
+                                    HIU
+                                </div>
+                                <div class="table-cell">
+                                    Poli
+                                </div>
+                                <div class="table-cell">
+                                    $0.00                                    
+                                </div>
+                                <div class="table-cell">
+                                    Pain
+                                </div>
+                                <div class="table-cell">
+                                    Social                                    
+                                </div>
+                                <div class="table-cell">
+                                   
+                                </div>
+                                <div class="table-cell">
+                                    https://www.facebook.com/gurudev.mahakud.92/
+                                </div>
+                                <div class="table-cell">
+                                    $0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    0%
+                                </div>
+                                <div class="table-cell">
+                                    0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="table-row hidden hidden-table" >
+                                <div class="table-cell">
+                                    431935986858222 431935986858222
+                                </div>
+                                <div class="table-cell">
+                                    653916486492856
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    theerini2 | 15 / AdsPower
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    need to setup
+                                </div>
+                                <div class="table-cell">
+                                    280
+                                </div>
+                                <div class="table-cell">
+                                    HIU
+                                </div>
+                                <div class="table-cell">
+                                    Poli
+                                </div>
+                                <div class="table-cell">
+                                    $0.00                                    
+                                </div>
+                                <div class="table-cell">
+                                    Pain
+                                </div>
+                                <div class="table-cell">
+                                    Social                                    
+                                </div>
+                                <div class="table-cell">
+                                   
+                                </div>
+                                <div class="table-cell">
+                                    https://www.facebook.com/gurudev.mahakud.92/
+                                </div>
+                                <div class="table-cell">
+                                    $0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    0%
+                                </div>
+                                <div class="table-cell">
+                                    0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="table-row hidden hidden-table" >
+                                <div class="table-cell">
+                                    431935986858222 431935986858222
+                                </div>
+                                <div class="table-cell">
+                                    653916486492856
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    theerini2 | 15 / AdsPower
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    need to setup
+                                </div>
+                                <div class="table-cell">
+                                    280
+                                </div>
+                                <div class="table-cell">
+                                    HIU
+                                </div>
+                                <div class="table-cell">
+                                    Poli
+                                </div>
+                                <div class="table-cell">
+                                    $0.00                                    
+                                </div>
+                                <div class="table-cell">
+                                    Pain
+                                </div>
+                                <div class="table-cell">
+                                    Social                                    
+                                </div>
+                                <div class="table-cell">
+                                   
+                                </div>
+                                <div class="table-cell">
+                                    https://www.facebook.com/gurudev.mahakud.92/
+                                </div>
+                                <div class="table-cell">
+                                    $0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    0%
+                                </div>
+                                <div class="table-cell">
+                                    0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="table-row hidden hidden-table" >
+                                <div class="table-cell">
+                                    431935986858222 431935986858222
+                                </div>
+                                <div class="table-cell">
+                                    653916486492856
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    theerini2 | 15 / AdsPower
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    need to setup
+                                </div>
+                                <div class="table-cell">
+                                    280
+                                </div>
+                                <div class="table-cell">
+                                    HIU
+                                </div>
+                                <div class="table-cell">
+                                    Poli
+                                </div>
+                                <div class="table-cell">
+                                    $0.00                                    
+                                </div>
+                                <div class="table-cell">
+                                    Pain
+                                </div>
+                                <div class="table-cell">
+                                    Social                                    
+                                </div>
+                                <div class="table-cell">
+                                   
+                                </div>
+                                <div class="table-cell">
+                                    https://www.facebook.com/gurudev.mahakud.92/
+                                </div>
+                                <div class="table-cell">
+                                    $0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                <div class="table-cell">
+                                    9.06.2023 12:42 дня
+                                </div>
+                                <div class="table-cell">
+                                    0%
+                                </div>
+                                <div class="table-cell">
+                                    0.00
+                                </div>
+                                <div class="table-cell">
+                                    
+                                </div>
+                                
+                            </div>
+                            
+
+                        <!-- Повторите блок .table-row для каждой строки таблицы -->
+                    </div>
                 </div>
+
+
+
             </div>
-            <div class="card-footer py-4">
-                <nav class="d-flex justify-content-end" aria-label="...">
-                </nav>
-            </div>
-        </div>
-        <div class="alert alert-danger">
-            <span>
-                Add, Edit, Delete features are not functional. This is a PRO feature! Click <b><a style="color:blue" target="_blank" href="https://www.creative-tim.com/live/black-dashboard-pro-laravel">here</a></b>
-                to see the PRO product.</span>
         </div>
     </div>
 </div>
+
 
 @endsection
