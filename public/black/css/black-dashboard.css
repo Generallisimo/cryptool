@@ -15187,7 +15187,7 @@ table.tablesorter thead tr .headerSortDown {
   width:1200px
 }
 .fixed-div2{
-  width:1050px; 
+  width:100%; 
   overflow: auto;
   
 }
