@@ -352,7 +352,6 @@
 
 
 @push('js')
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const copyIcons = document.querySelectorAll('.icon');
@@ -360,21 +359,17 @@ document.addEventListener('DOMContentLoaded', function() {
     copyIcons.forEach(function(icon) {
         icon.addEventListener('click', function() {
             const copyText = icon.getAttribute('data-copytext');
-
-            // Создаем временный элемент для копирования текста
             const tempInput = document.createElement('input');
             tempInput.value = copyText;
             document.body.appendChild(tempInput);
             tempInput.select();
             document.execCommand('copy');
             document.body.removeChild(tempInput);
-
-            // Визуальное подтверждение копирования
-            icon.style.color = '#e14eca'; // Измените цвет или добавьте другие стили по вашему усмотрению
+            icon.style.color = '#e14eca';
 
             setTimeout(function() {
-                icon.style.color = ''; // Сбросите цвет обратно
-            }, 1000); // Через 1 секунду вернуть цвет
+                icon.style.color = '';
+            }, 1000);
         });
     });
 
@@ -384,46 +379,58 @@ document.addEventListener('DOMContentLoaded', function() {
         const sellerNames = row.querySelectorAll('.hidden');
         const sellerName = row.querySelector('p');
         const p1 = row.querySelector('.p1');
+        let hiddenContent = null;
 
-        // Проверка наличия скрытых элементов с классом hidden
         const hasHiddenElements = sellerNames.length > 0;
 
-        // Создание точек
         if (hasHiddenElements) {
             const dots = document.createElement('span');
             dots.textContent = "..."
             p1.insertAdjacentElement('afterend', dots);
 
-            row.addEventListener('mouseover', function() {
+            row.addEventListener('click', function(event) {
                 p1.style.color = "#e14eca";
                 dots.style.color = "#e14eca";
 
-                const hiddenContent = document.createElement('div');
-                hiddenContent.classList.add('hidden-content');
-                hiddenContent.style.padding = '20px';
-                hiddenContent.style.zIndex = '1';
-                hiddenContent.style.position = 'absolute';
-                hiddenContent.style.right = '10px';
-                hiddenContent.style.background = '#32325d';
-                hiddenContent.style.borderRadius = '10px';
-                hiddenContent.style.top = '10px';
-                hiddenContent.style.textAlign = 'center';
-
-                sellerNames.forEach(function(name) {
-                    if (name.classList.contains('hidden')) {
-                        hiddenContent.innerHTML += '<p>' + name.textContent + '</p>';
-                    }
-                });
-
-                row.appendChild(hiddenContent);
-            });
-
-            row.addEventListener('mouseout', function() {
-                p1.style.color = " rgba(255, 255, 255, 0.8) ";
-                dots.style.color = " rgba(255, 255, 255, 0.8) ";
-                const hiddenContent = row.querySelector('.hidden-content');
                 if (hiddenContent) {
                     row.removeChild(hiddenContent);
+                    hiddenContent = null;
+                } else {
+                    hiddenContent = document.createElement('div');
+                    hiddenContent.classList.add('hidden-content');
+                    hiddenContent.style.padding = '20px';
+                    hiddenContent.style.zIndex = '1';
+                    hiddenContent.style.position = 'absolute';
+                    hiddenContent.style.right = '10px';
+                    hiddenContent.style.background = '#32325d';
+                    hiddenContent.style.borderRadius = '10px';
+                    hiddenContent.style.top = '10px';
+                    hiddenContent.style.textAlign = 'center';
+
+                    // Добавляем обработчик события click для скрытого окна
+                    hiddenContent.addEventListener('click', function(event) {
+                        event.stopPropagation(); // Предотвращаем всплытие события
+                    });
+
+                    sellerNames.forEach(function(name) {
+                        if (name.classList.contains('hidden')) {
+                            hiddenContent.innerHTML += '<p>' + name.textContent + '</p>';
+                        }
+                    });
+
+                    row.appendChild(hiddenContent);
+                }
+
+                event.stopPropagation();
+            });
+
+            // Обработчик события для закрытия окна при клике вне строки и на строку
+            document.addEventListener('click', function(event) {
+                if (hiddenContent && event.target !== row && !hiddenContent.contains(event.target)) {
+                    p1.style.color = "rgba(255, 255, 255, 0.8)";
+                    dots.style.color = "rgba(255, 255, 255, 0.8)";
+                    row.removeChild(hiddenContent);
+                    hiddenContent = null;
                 }
             });
         }
