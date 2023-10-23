@@ -15155,6 +15155,41 @@ table.tablesorter thead tr .headerSortDown {
 
 
 
+
+
+/* профиля  */
+
+
+.seller_li {
+  position: relative;
+}
+.hidden{
+  display: none;
+}
+#hiddenContent{
+display: none;  
+padding: 20px;
+z-index: 1;
+position: absolute;
+right: 10px;
+background: #32325d;
+border-radius: 10px;
+top: 10px;
+text-align: center;
+}
+
+.icon_hov {
+  cursor: pointer;
+  transition: color 0.3s;
+  transition: transform 0.3s; 
+}
+.icon_hov:hover{
+  color:#e14eca;
+  transform: translate(5px, -3px); 
+}
+
+
+
 .div_tasks{
   display: flex;
   justify-content: space-around;

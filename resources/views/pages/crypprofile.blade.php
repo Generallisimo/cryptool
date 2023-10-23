@@ -61,18 +61,25 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="my-td">
+                                    <td class="my-td seller_li">
+                                        
                                         <ul style="list-style-type: none;">
                                             <li>
                                                 <a href="{{ route('pages.crypprofileacc') }}">
                                                     tara5wcbrenda | 8
-                                                </a><i class="fas fa-copy icon"></i></br>
+                                                </a>
+                                                <i class="fas fa-copy icon icon_hov ml-2" data-copytext="https://wiki.skullsecurity.org/index.php/Main_Page"></i></br>
                                             </li>
-                                            <li>
-                                                <p>
-
-                                                    Seller: HIU
-                                                </p>
+                                            <li class="">
+                                                
+                                                <div class="seller d-flex">
+                                                    <p >Seller: </p>
+                                                    <p class="ml-1 p1"> HIU</p>
+                                                    <p class="hidden">Valentin</p>
+                                                    <p class="hidden">Poli</p>
+                                                    <p class="hidden">Lori</p>
+                                                </div>
+                                                
                                             </li>
                                             <li>
                                                 <p>
@@ -100,17 +107,68 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="my-td">
+                                    <td class="my-td seller_li">
+                                        
                                         <ul style="list-style-type: none;">
                                             <li>
                                                 <a href="{{ route('pages.crypprofileacc') }}">
                                                     tara5wcbrenda | 8
-                                                </a><i class="fas fa-copy icon"></i></br>
+                                                </a><i class="fas fa-copy icon icon_hov ml-2" data-copytext="https://www.wikipedia.org/"></i></br>
+                                            </li>
+                                            <li class="">
+                                                
+                                                <div class="seller d-flex">
+                                                    <p >Seller: </p>
+                                                    <p class="ml-1 p1"> GrandPA</p>
+                                                </div>
+                                                
                                             </li>
                                             <li>
                                                 <p>
-                                                    Seller: HIU...LIA LL
+                                                    Buyer: Poli
                                                 </p>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-primary btn-sm">Active</button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-primary btn-sm">Active</button>
+                                    </td>
+                                    <td class=" m-t-c">
+                                        <button type="button" rel="tooltip" class="btn btn-info btn-sm btn-icon">
+                                            <i class="tim-icons icon-refresh-02"></i>
+                                        </button>
+                                        <button type="button" rel="tooltip" class="btn btn-success btn-sm btn-icon">
+                                            <i class="tim-icons icon-pencil"></i>
+                                        </button>
+                                        <button type="button" rel="tooltip" class="btn btn-danger btn-sm btn-icon">
+                                            <i class="tim-icons icon-simple-remove"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="my-td seller_li">
+                                        
+                                        <ul style="list-style-type: none;">
+                                            <li>
+                                                <a href="{{ route('pages.crypprofileacc') }}">
+                                                    tara5wcbrenda | 8
+                                                </a><i class="fas fa-copy icon icon_hov ml-2" data-copytext="https://www.wikipedia.org/"></i></br>
+                                            </li>
+                                            <li class="">
+                                                
+                                                <div class="seller d-flex">
+                                                    <p >Seller: </p>
+                                                    <p class="ml-1 p1"> Loli</p>
+                                                    <p class="hidden">Victor</p>
+                                                    <p class="hidden">Kama</p>
+                                                    <p class="hidden">Logo</p>
+                                                    <p class="hidden">Abduramanhajiev</p>
+                                                    <p class="hidden">Pipa</p>
+                                                </div>
+                                                
                                             </li>
                                             <li>
                                                 <p>
@@ -281,4 +339,96 @@
         </ul>
     </div>
 </div>
+
+
+
+
+
+
+
+
 @endsection
+
+
+
+@push('js')
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const copyIcons = document.querySelectorAll('.icon');
+
+    copyIcons.forEach(function(icon) {
+        icon.addEventListener('click', function() {
+            const copyText = icon.getAttribute('data-copytext');
+
+            // Создаем временный элемент для копирования текста
+            const tempInput = document.createElement('input');
+            tempInput.value = copyText;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            // Визуальное подтверждение копирования
+            icon.style.color = '#e14eca'; // Измените цвет или добавьте другие стили по вашему усмотрению
+
+            setTimeout(function() {
+                icon.style.color = ''; // Сбросите цвет обратно
+            }, 1000); // Через 1 секунду вернуть цвет
+        });
+    });
+
+    const sellerRows = document.querySelectorAll('.seller');
+
+    sellerRows.forEach(function(row) {
+        const sellerNames = row.querySelectorAll('.hidden');
+        const sellerName = row.querySelector('p');
+        const p1 = row.querySelector('.p1');
+
+        // Проверка наличия скрытых элементов с классом hidden
+        const hasHiddenElements = sellerNames.length > 0;
+
+        // Создание точек
+        if (hasHiddenElements) {
+            const dots = document.createElement('span');
+            dots.textContent = "..."
+            p1.insertAdjacentElement('afterend', dots);
+
+            row.addEventListener('mouseover', function() {
+                p1.style.color = "#e14eca";
+                dots.style.color = "#e14eca";
+
+                const hiddenContent = document.createElement('div');
+                hiddenContent.classList.add('hidden-content');
+                hiddenContent.style.padding = '20px';
+                hiddenContent.style.zIndex = '1';
+                hiddenContent.style.position = 'absolute';
+                hiddenContent.style.right = '10px';
+                hiddenContent.style.background = '#32325d';
+                hiddenContent.style.borderRadius = '10px';
+                hiddenContent.style.top = '10px';
+                hiddenContent.style.textAlign = 'center';
+
+                sellerNames.forEach(function(name) {
+                    if (name.classList.contains('hidden')) {
+                        hiddenContent.innerHTML += '<p>' + name.textContent + '</p>';
+                    }
+                });
+
+                row.appendChild(hiddenContent);
+            });
+
+            row.addEventListener('mouseout', function() {
+                p1.style.color = " rgba(255, 255, 255, 0.8) ";
+                dots.style.color = " rgba(255, 255, 255, 0.8) ";
+                const hiddenContent = row.querySelector('.hidden-content');
+                if (hiddenContent) {
+                    row.removeChild(hiddenContent);
+                }
+            });
+        }
+    });
+});
+</script>
+
+@endpush
