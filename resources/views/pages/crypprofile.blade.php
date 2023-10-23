@@ -345,9 +345,23 @@
 
 
 
-
+<style>
+    .overlay{
+        position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+    }
+</style>
 
 @endsection
+
 
 
 
@@ -374,6 +388,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     const sellerRows = document.querySelectorAll('.seller');
+    const Card = document.querySelector('.overlay');
 
     sellerRows.forEach(function(row) {
         const sellerNames = row.querySelectorAll('.hidden');
@@ -384,6 +399,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const hasHiddenElements = sellerNames.length > 0;
 
         if (hasHiddenElements) {
+            const card = row.closest('.card'); 
             const dots = document.createElement('span');
             dots.textContent = "..."
             p1.insertAdjacentElement('afterend', dots);
@@ -395,17 +411,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (hiddenContent) {
                     row.removeChild(hiddenContent);
                     hiddenContent = null;
+                    
                 } else {
-                    hiddenContent = document.createElement('div');
+                    hiddenContent = document.createElement('div'); // Используйте document.createElement
                     hiddenContent.classList.add('hidden-content');
                     hiddenContent.style.padding = '20px';
-                    hiddenContent.style.zIndex = '1';
+                    hiddenContent.style.zIndex = '2000';
                     hiddenContent.style.position = 'absolute';
-                    hiddenContent.style.right = '10px';
+                    hiddenContent.style.right = ' 25%';
                     hiddenContent.style.background = '#32325d';
                     hiddenContent.style.borderRadius = '10px';
-                    hiddenContent.style.top = '10px';
+                    hiddenContent.style.top = ' 45%';
                     hiddenContent.style.textAlign = 'center';
+                    hiddenContent.style.width = '50%';
+                    
+                    Card.style.display = 'flex';
 
                     // Добавляем обработчик события click для скрытого окна
                     hiddenContent.addEventListener('click', function(event) {
@@ -418,7 +438,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     });
 
-                    row.appendChild(hiddenContent);
+                    
+                    card.appendChild(hiddenContent); // Добавьте карточке, а не строке
                 }
 
                 event.stopPropagation();
@@ -429,8 +450,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (hiddenContent && event.target !== row && !hiddenContent.contains(event.target)) {
                     p1.style.color = "rgba(255, 255, 255, 0.8)";
                     dots.style.color = "rgba(255, 255, 255, 0.8)";
-                    row.removeChild(hiddenContent);
+                    card.removeChild(hiddenContent); // Удалите из карточки, а не строки
                     hiddenContent = null;
+                    Card.style.display = 'none';
                 }
             });
         }
@@ -439,3 +461,4 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 @endpush
+

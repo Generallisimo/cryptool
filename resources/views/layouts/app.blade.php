@@ -23,6 +23,7 @@
 </head>
 
 <body class="{{ $class ?? '' }}">
+
     @auth()
     <div class="wrapper">
         @include('layouts.navbars.sidebar')
@@ -240,6 +241,7 @@
         });
     </script>
     @stack('js')
+    <div class="overlay" style="display: none;"></div>
 </body>
 
 </html>
