@@ -59,8 +59,8 @@
             </a>
             <ul class="dropdown-menu">
 
-                <div class="row">
-                    <div >
+                <div class="row div_tasks">
+                    <div class="div_row_tasks">
                         <h1 class=" ml-4 mt-3" >Tasks:</h1>
 
 
@@ -72,7 +72,7 @@
                             </div>
 
                     </div>
-                    <div class=" ml-3" >
+                    <div class=" ml-3 div_row_tasks" >
                         <h1 class=" ml-4 mt-3">My:</h1>
 
                             <div class="card ml-4 mt-3" style="width: 250px; height:100px">
