@@ -15182,6 +15182,7 @@ text-align: center;
   cursor: pointer;
   transition: color 0.3s;
   transition: transform 0.3s; 
+  padding:10px;
 }
 .icon_hov:hover{
   color:#e14eca;
