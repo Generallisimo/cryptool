@@ -98,7 +98,7 @@
                                             <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </a>
-                                            <div  class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" x-placement="bottom-end" style="position: absolute; transform: translate3d(-50px, 27px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                            <div style="right: 35% !important;" class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" x-placement="bottom-end" style="position: absolute; transform: translate3d(-50px, 27px, 0px); top: 0px; left: 0px; will-change: transform;">
                                                 <a class="dropdown-item dropdown-item1 " href="#">Edit</a>
                                                 <a class="dropdown-item dropdown-item2" href="#">Update</a>
                                                 <a class="dropdown-item dropdown-item3" href="#">Delete</a>
@@ -140,7 +140,7 @@
                                             <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </a>
-                                            <div  class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" x-placement="bottom-end" style="position: absolute; transform: translate3d(-50px, 27px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                            <div style="right: 35% !important;" class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" x-placement="bottom-end" style="position: absolute; transform: translate3d(-50px, 27px, 0px); top: 0px; left: 0px; will-change: transform;">
                                                 <a class="dropdown-item dropdown-item1 " href="#">Edit</a>
                                                 <a class="dropdown-item dropdown-item2" href="#">Update</a>
                                                 <a class="dropdown-item dropdown-item3" href="#">Delete</a>
@@ -187,7 +187,7 @@
                                             <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </a>
-                                            <div style class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" x-placement="bottom-end" style="position: absolute; transform: translate3d(-50px, 27px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                            <div style="right: 35% !important;" class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" x-placement="bottom-end" style="position: absolute; transform: translate3d(-50px, 27px, 0px); top: 0px; left: 0px; will-change: transform;">
                                                 <a class="dropdown-item dropdown-item1 " href="#">Edit</a>
                                                 <a class="dropdown-item dropdown-item2" href="#">Update</a>
                                                 <a class="dropdown-item dropdown-item3" href="#">Delete</a>
