@@ -360,12 +360,11 @@
     }
 </style>
 
-@endsection
 
 
 
 
-@push('js')
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // для копирования по кнопке
@@ -419,23 +418,24 @@
                         hiddenContent.style.zIndex = '2000';
                         hiddenContent.style.position = 'absolute';
                         hiddenContent.style.right = ' 25%';
-                        hiddenContent.style.background = 'rgba(50, 50, 93, 0.87)';
+                        hiddenContent.style.background = 'rgba(50, 50, 93, 0.93)';
                         hiddenContent.style.borderRadius = '10px';
                         hiddenContent.style.top = ' 35%';
-                        hiddenContent.style.width = '35%';
+                        hiddenContent.style.width = '45%';
                         hiddenContent.color = "white";
                         hiddenContent.style.fontSize = "20px";
                         hiddenContent.style.border = "1px solid ";
 
                         const p_card = document.createElement('h4');
                         hiddenContent.appendChild(p_card);
-                        p_card.textContent = "Sellers:"
+                        p_card.textContent = "Sellers"
                         p_card.style.width = "100%"
                         p_card.style.backgroundColor = "rgb(147, 92, 155)"
                         p_card.style.padding = '20px';
                         p_card.style.borderTopRightRadius = '10px';
                         p_card.style.borderTopLeftRadius = '10px';
                         p_card.style.marginBottom = '0px';
+                        p_card.style.fontWeight = 'bold';
 
                         Card.style.display = 'flex';
 
@@ -516,7 +516,6 @@
                     dots.style.color = "";
                 });
 
-                // Обработчик события для закрытия окна при клике вне строки и на строку
                 document.addEventListener('click', function(event) {
                     if (hiddenContent && event.target !== row && !hiddenContent.contains(event.target)) {
                         p1.style.color = "rgba(255, 255, 255, 0.8)";
@@ -530,9 +529,9 @@
         });
     });
 </script>
-@endpush
 
 
+@endsection
 <!-- for notes -->
 <!-- <script>
     document.addEventListener('DOMContentLoaded', function() {
