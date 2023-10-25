@@ -15163,9 +15163,10 @@ table.tablesorter thead tr .headerSortDown {
 .seller_li {
   position: relative;
 }
-.hidden{
+.hidden_p{
   display: none;
 }
+
 #hiddenContent{
 display: none;  
 padding: 20px;

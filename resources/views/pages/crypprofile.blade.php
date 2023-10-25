@@ -72,19 +72,18 @@
                                             </li>
                                             <li class="">
                                                 
-                                                <div class="seller d-flex">
-                                                    <p >Seller: </p>
-                                                    <p class="ml-1 p1"> HIU</p>
-                                                    <p class="hidden">Valentin</p>
-                                                    <p class="hidden">Poli</p>
-                                                    <p class="hidden">Lori</p>
+                                                <div class="seller d-flex mt-2">
+                                                    <h5 style="font-size: 14px;">Seller: </h4>
+                                                    <p class="p_1_2 ml-1 p1"> HIU</p>
+                                                    <p class="p_1_2 hidden_p">Valentin</p>
+                                                    <p class="p_1_2 hidden_p">Poli</p>
+                                                    <p class="p_1_2 hidden_p">Lori</p>
                                                 </div>
                                                 
                                             </li>
-                                            <li>
-                                                <p>
-                                                    Buyer: Poli
-                                                </p>
+                                            <li class="d-flex">
+                                                <h5 style="font-size: 14px;">Buyer: </h4>
+                                                <p class="ml-1">Poli</p>
                                             </li>
                                         </ul>
                                     </td>
@@ -117,16 +116,15 @@
                                             </li>
                                             <li class="">
                                                 
-                                                <div class="seller d-flex">
-                                                    <p >Seller: </p>
+                                                <div class="seller d-flex mt-2">
+                                                    <h5 style="font-size: 14px;">Seller: </h4>
                                                     <p class="ml-1 p1"> GrandPA</p>
                                                 </div>
                                                 
                                             </li>
-                                            <li>
-                                                <p>
-                                                    Buyer: Poli
-                                                </p>
+                                            <li class="d-flex">
+                                                <h5 style="font-size: 14px;">Buyer: </h4>
+                                                <p class="ml-1">Poli</p>
                                             </li>
                                         </ul>
                                     </td>
@@ -159,21 +157,20 @@
                                             </li>
                                             <li class="">
                                                 
-                                                <div class="seller d-flex">
-                                                    <p >Seller: </p>
-                                                    <p class="ml-1 p1"> Loli</p>
-                                                    <p class="hidden">Victor</p>
-                                                    <p class="hidden">Kama</p>
-                                                    <p class="hidden">Logo</p>
-                                                    <p class="hidden">Abduramanhajiev</p>
-                                                    <p class="hidden">Pipa</p>
+                                                <div class="seller d-flex  mt-2">
+                                                    <h5 style="font-size: 14px;">Seller: </h4>
+                                                    <p class="p_1_2 ml-1 p1"> Loli</p>
+                                                    <p class="p_1_2 hidden_p">Victor</p>
+                                                    <p class="p_1_2 hidden_p">Kama</p>
+                                                    <p class="p_1_2 hidden_p">Logo</p>
+                                                    <p class="p_1_2 hidden_p">Abduramanhajiev</p>
+                                                    <p class="p_1_2 hidden_p">Pipa</p>
                                                 </div>
                                                 
                                             </li>
-                                            <li>
-                                                <p>
-                                                    Buyer: Poli
-                                                </p>
+                                            <li class="d-flex">
+                                                <h5 style="font-size: 14px;">Buyer: </h4>
+                                                <p class="ml-1">Poli</p>
                                             </li>
                                         </ul>
                                     </td>
@@ -368,6 +365,7 @@
 @push('js')
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    // для копирования по кнопке
     const copyIcons = document.querySelectorAll('.icon');
 
     copyIcons.forEach(function(icon) {
@@ -387,12 +385,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // для iframe
     const sellerRows = document.querySelectorAll('.seller');
     const Card = document.querySelector('.overlay');
 
     sellerRows.forEach(function(row) {
-        const sellerNames = row.querySelectorAll('.hidden');
-        const sellerName = row.querySelector('p');
+        const sellerNames = row.querySelectorAll('.p_1_2');
         const p1 = row.querySelector('.p1');
         let hiddenContent = null;
 
@@ -400,13 +398,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (hasHiddenElements) {
             const card = row.closest('.card'); 
+            
             const dots = document.createElement('span');
+            p1.appendChild(dots);
             dots.textContent = "..."
             p1.insertAdjacentElement('afterend', dots);
 
             row.addEventListener('click', function(event) {
-                p1.style.color = "#e14eca";
-                dots.style.color = "#e14eca";
 
                 if (hiddenContent) {
                     row.removeChild(hiddenContent);
@@ -421,28 +419,53 @@ document.addEventListener('DOMContentLoaded', function() {
                     hiddenContent.style.right = ' 25%';
                     hiddenContent.style.background = '#32325d';
                     hiddenContent.style.borderRadius = '10px';
-                    hiddenContent.style.top = ' 45%';
-                    hiddenContent.style.textAlign = 'center';
-                    hiddenContent.style.width = '50%';
+                    hiddenContent.style.top = ' 35%';
+                    hiddenContent.style.width = '35%';
+                    hiddenContent.color = "white";
+                    hiddenContent.style.fontSize = "20px";
+                    hiddenContent.style.border = "1px solid";
+                    
+                    const p_card = document.createElement('p');
+                    hiddenContent.appendChild(p_card);
+                    p_card.textContent = "Sellers:"
                     
                     Card.style.display = 'flex';
+
 
                     // Добавляем обработчик события click для скрытого окна
                     hiddenContent.addEventListener('click', function(event) {
                         event.stopPropagation(); // Предотвращаем всплытие события
                     });
 
-                    sellerNames.forEach(function(name) {
-                        if (name.classList.contains('hidden')) {
-                            hiddenContent.innerHTML += '<p>' + name.textContent + '</p>';
+                    sellerNames.forEach(function(name, i) {
+                        if (name.classList.contains('p_1_2')) {
+                            var sellerElement = document.createElement('p');
+                            sellerElement.textContent = (i+1)+ '.  ' + name.textContent;
+                            sellerElement.style.borderBottom = '1px solid';
+                            hiddenContent.appendChild(sellerElement);
+
                         }
                     });
-
+                    var paragraphElement = hiddenContent.querySelector('p');
+                    paragraphElement.style.textAlign = 'center';
+                    paragraphElement.style.borderBottom = '1px solid';
+                    
                     
                     card.appendChild(hiddenContent); // Добавьте карточке, а не строке
                 }
 
                 event.stopPropagation();
+            });
+            
+            // наведние на скрытый текст
+            row.addEventListener('mouseover', function () {
+                p1.style.color = "#e14eca";
+                dots.style.color = "#e14eca";
+            });
+
+            row.addEventListener('mouseout', function () {
+                p1.style.color = "";
+                dots.style.color = "";
             });
 
             // Обработчик события для закрытия окна при клике вне строки и на строку
