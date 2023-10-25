@@ -436,6 +436,7 @@
                         p_card.style.borderTopLeftRadius = '10px';
                         p_card.style.marginBottom = '0px';
                         p_card.style.fontWeight = 'bold';
+                        p_card.style.fontSize = '23px';
 
                         Card.style.display = 'flex';
 
