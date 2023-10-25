@@ -62,7 +62,7 @@
                             <tbody>
                                 <tr>
                                     <td class="my-td seller_li">
-                                        
+
                                         <ul style="list-style-type: none;">
                                             <li>
                                                 <a href="{{ route('pages.crypprofileacc') }}">
@@ -71,19 +71,19 @@
                                                 <i class="fas fa-copy icon icon_hov ml-2" data-copytext="https://wiki.skullsecurity.org/index.php/Main_Page"></i></br>
                                             </li>
                                             <li class="">
-                                                
+
                                                 <div class="seller d-flex mt-2">
                                                     <h5 style="font-size: 14px;">Seller: </h4>
-                                                    <p class="p_1_2 ml-1 p1"> HIU</p>
-                                                    <p class="p_1_2 hidden_p">Valentin</p>
-                                                    <p class="p_1_2 hidden_p">Poli</p>
-                                                    <p class="p_1_2 hidden_p">Lori</p>
+                                                        <p class="p_1_2 ml-1 p1"> HIU</p>
+                                                        <p class="p_1_2 hidden_p">Valentin</p>
+                                                        <p class="p_1_2 hidden_p">Poli</p>
+                                                        <p class="p_1_2 hidden_p">Lori</p>
                                                 </div>
-                                                
+
                                             </li>
                                             <li class="d-flex">
                                                 <h5 style="font-size: 14px;">Buyer: </h4>
-                                                <p class="ml-1">Poli</p>
+                                                    <p class="ml-1">Poli</p>
                                             </li>
                                         </ul>
                                     </td>
@@ -94,20 +94,21 @@
                                         <button class="btn btn-primary btn-sm">Active</button>
                                     </td>
                                     <td class=" m-t-c">
-                                        <button type="button" rel="tooltip" class="btn btn-info btn-sm btn-icon">
-                                            <i class="tim-icons icon-refresh-02"></i>
-                                        </button>
-                                        <button type="button" rel="tooltip" class="btn btn-success btn-sm btn-icon">
-                                            <i class="tim-icons icon-pencil"></i>
-                                        </button>
-                                        <button type="button" rel="tooltip" class="btn btn-danger btn-sm btn-icon">
-                                            <i class="tim-icons icon-simple-remove"></i>
-                                        </button>
+                                        <div class="dropdown">
+                                            <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </a>
+                                            <div  class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" x-placement="bottom-end" style="position: absolute; transform: translate3d(-50px, 27px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                <a class="dropdown-item dropdown-item1 " href="#">Edit</a>
+                                                <a class="dropdown-item dropdown-item2" href="#">Update</a>
+                                                <a class="dropdown-item dropdown-item3" href="#">Delete</a>
+                                            </div>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="my-td seller_li">
-                                        
+
                                         <ul style="list-style-type: none;">
                                             <li>
                                                 <a href="{{ route('pages.crypprofileacc') }}">
@@ -115,16 +116,16 @@
                                                 </a><i class="fas fa-copy icon icon_hov ml-2" data-copytext="https://www.wikipedia.org/"></i></br>
                                             </li>
                                             <li class="">
-                                                
+
                                                 <div class="seller d-flex mt-2">
                                                     <h5 style="font-size: 14px;">Seller: </h4>
-                                                    <p class="ml-1 p1"> GrandPA</p>
+                                                        <p class="ml-1 p1"> GrandPA</p>
                                                 </div>
-                                                
+
                                             </li>
                                             <li class="d-flex">
                                                 <h5 style="font-size: 14px;">Buyer: </h4>
-                                                <p class="ml-1">Poli</p>
+                                                    <p class="ml-1">Poli</p>
                                             </li>
                                         </ul>
                                     </td>
@@ -135,20 +136,21 @@
                                         <button class="btn btn-primary btn-sm">Active</button>
                                     </td>
                                     <td class=" m-t-c">
-                                        <button type="button" rel="tooltip" class="btn btn-info btn-sm btn-icon">
-                                            <i class="tim-icons icon-refresh-02"></i>
-                                        </button>
-                                        <button type="button" rel="tooltip" class="btn btn-success btn-sm btn-icon">
-                                            <i class="tim-icons icon-pencil"></i>
-                                        </button>
-                                        <button type="button" rel="tooltip" class="btn btn-danger btn-sm btn-icon">
-                                            <i class="tim-icons icon-simple-remove"></i>
-                                        </button>
+                                        <div class="dropdown">
+                                            <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </a>
+                                            <div  class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" x-placement="bottom-end" style="position: absolute; transform: translate3d(-50px, 27px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                <a class="dropdown-item dropdown-item1 " href="#">Edit</a>
+                                                <a class="dropdown-item dropdown-item2" href="#">Update</a>
+                                                <a class="dropdown-item dropdown-item3" href="#">Delete</a>
+                                            </div>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="my-td seller_li">
-                                        
+
                                         <ul style="list-style-type: none;">
                                             <li>
                                                 <a href="{{ route('pages.crypprofileacc') }}">
@@ -156,21 +158,21 @@
                                                 </a><i class="fas fa-copy icon icon_hov ml-2" data-copytext="https://www.wikipedia.org/"></i></br>
                                             </li>
                                             <li class="">
-                                                
+
                                                 <div class="seller d-flex  mt-2">
                                                     <h5 style="font-size: 14px;">Seller: </h4>
-                                                    <p class="p_1_2 ml-1 p1"> Loli</p>
-                                                    <p class="p_1_2 hidden_p">Victor</p>
-                                                    <p class="p_1_2 hidden_p">Kama</p>
-                                                    <p class="p_1_2 hidden_p">Logo</p>
-                                                    <p class="p_1_2 hidden_p">Abduramanhajiev</p>
-                                                    <p class="p_1_2 hidden_p">Pipa</p>
+                                                        <p class="p_1_2 ml-1 p1"> Loli</p>
+                                                        <p class="p_1_2 hidden_p">Victor</p>
+                                                        <p class="p_1_2 hidden_p">Kama</p>
+                                                        <p class="p_1_2 hidden_p">Logo</p>
+                                                        <p class="p_1_2 hidden_p">Abduramanhajiev</p>
+                                                        <p class="p_1_2 hidden_p">Pipa</p>
                                                 </div>
-                                                
+
                                             </li>
                                             <li class="d-flex">
                                                 <h5 style="font-size: 14px;">Buyer: </h4>
-                                                <p class="ml-1">Poli</p>
+                                                    <p class="ml-1">Poli</p>
                                             </li>
                                         </ul>
                                     </td>
@@ -181,15 +183,16 @@
                                         <button class="btn btn-primary btn-sm">Active</button>
                                     </td>
                                     <td class=" m-t-c">
-                                        <button type="button" rel="tooltip" class="btn btn-info btn-sm btn-icon">
-                                            <i class="tim-icons icon-refresh-02"></i>
-                                        </button>
-                                        <button type="button" rel="tooltip" class="btn btn-success btn-sm btn-icon">
-                                            <i class="tim-icons icon-pencil"></i>
-                                        </button>
-                                        <button type="button" rel="tooltip" class="btn btn-danger btn-sm btn-icon">
-                                            <i class="tim-icons icon-simple-remove"></i>
-                                        </button>
+                                        <div class="dropdown">
+                                            <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </a>
+                                            <div style class="dropdown-menu dropdown-menu-right dropdown-menu-arrow" x-placement="bottom-end" style="position: absolute; transform: translate3d(-50px, 27px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                <a class="dropdown-item dropdown-item1 " href="#">Edit</a>
+                                                <a class="dropdown-item dropdown-item2" href="#">Update</a>
+                                                <a class="dropdown-item dropdown-item3" href="#">Delete</a>
+                                            </div>
+                                        </div>
                                     </td>
                                 </tr>
                             </tbody>
@@ -243,7 +246,7 @@
                     <tbody>
                         <tr>
                             <td>
-                            <div class="form-check">
+                                <div class="form-check">
                                     <label class="form-check-label">
                                         <input class="form-check-input" type="checkbox" value="">
                                         <span class="form-check-sign">
@@ -253,7 +256,7 @@
                                 </div>
                             </td>
                             <td>
-                            <div class="d-block">
+                                <div class="d-block">
                                     <button class="btn btn-danger btn-sm">DISABLED</button>
                                 </div>
                             </td>
@@ -286,7 +289,7 @@
                         </tr>
                         <tr>
                             <td>
-                            <div class="form-check">
+                                <div class="form-check">
                                     <label class="form-check-label">
                                         <input class="form-check-input" type="checkbox" value="">
                                         <span class="form-check-sign">
@@ -296,7 +299,7 @@
                                 </div>
                             </td>
                             <td>
-                            <div class="d-block">
+                                <div class="d-block">
                                     <button class="btn btn-danger btn-sm">DISABLED</button>
                                 </div>
                             </td>
@@ -343,17 +346,17 @@
 
 
 <style>
-    .overlay{
+    .overlay {
         position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1000;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
     }
 </style>
 
@@ -364,124 +367,122 @@
 
 @push('js')
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    // для копирования по кнопке
-    const copyIcons = document.querySelectorAll('.icon');
+    document.addEventListener('DOMContentLoaded', function() {
+        // для копирования по кнопке
+        const copyIcons = document.querySelectorAll('.icon');
 
-    copyIcons.forEach(function(icon) {
-        icon.addEventListener('click', function() {
-            const copyText = icon.getAttribute('data-copytext');
-            const tempInput = document.createElement('input');
-            tempInput.value = copyText;
-            document.body.appendChild(tempInput);
-            tempInput.select();
-            document.execCommand('copy');
-            document.body.removeChild(tempInput);
-            icon.style.color = '#e14eca';
+        copyIcons.forEach(function(icon) {
+            icon.addEventListener('click', function() {
+                const copyText = icon.getAttribute('data-copytext');
+                const tempInput = document.createElement('input');
+                tempInput.value = copyText;
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                document.execCommand('copy');
+                document.body.removeChild(tempInput);
+                icon.style.color = '#e14eca';
 
-            setTimeout(function() {
-                icon.style.color = '';
-            }, 1000);
+                setTimeout(function() {
+                    icon.style.color = '';
+                }, 1000);
+            });
+        });
+
+        // для iframe
+        const sellerRows = document.querySelectorAll('.seller');
+        const Card = document.querySelector('.overlay');
+
+        sellerRows.forEach(function(row) {
+            const sellerNames = row.querySelectorAll('.p_1_2');
+            const p1 = row.querySelector('.p1');
+            let hiddenContent = null;
+
+            const hasHiddenElements = sellerNames.length > 0;
+
+            if (hasHiddenElements) {
+                const card = row.closest('.card');
+
+                const dots = document.createElement('span');
+                p1.appendChild(dots);
+                dots.textContent = "..."
+                p1.insertAdjacentElement('afterend', dots);
+
+                row.addEventListener('click', function(event) {
+
+                    if (hiddenContent) {
+                        row.removeChild(hiddenContent);
+                        hiddenContent = null;
+
+                    } else {
+                        hiddenContent = document.createElement('div'); // Используйте document.createElement
+                        hiddenContent.classList.add('hidden-content');
+                        hiddenContent.style.padding = '20px';
+                        hiddenContent.style.zIndex = '2000';
+                        hiddenContent.style.position = 'absolute';
+                        hiddenContent.style.right = ' 25%';
+                        hiddenContent.style.background = 'rgba(50, 50, 93, 0.87)';
+                        hiddenContent.style.borderRadius = '10px';
+                        hiddenContent.style.top = ' 35%';
+                        hiddenContent.style.width = '35%';
+                        hiddenContent.color = "white";
+                        hiddenContent.style.fontSize = "20px";
+                        hiddenContent.style.border = "1px solid ";
+
+                        const p_card = document.createElement('h3');
+                        hiddenContent.appendChild(p_card);
+                        p_card.textContent = "Sellers:"
+
+                        Card.style.display = 'flex';
+
+
+                        // Добавляем обработчик события click для скрытого окна
+                        hiddenContent.addEventListener('click', function(event) {
+                            event.stopPropagation(); // Предотвращаем всплытие события
+                        });
+
+                        sellerNames.forEach(function(name, i) {
+                            if (name.classList.contains('p_1_2')) {
+                                var sellerElement = document.createElement('p');
+                                sellerElement.textContent = (i + 1) + '.  ' + name.textContent;
+                                sellerElement.style.borderBottom = '1px solid';
+                                hiddenContent.appendChild(sellerElement);
+
+                            }
+                        });
+                        var paragraphElement = hiddenContent.querySelector('h3');
+                        paragraphElement.style.textAlign = 'center';
+
+
+                        card.appendChild(hiddenContent); // Добавьте карточке, а не строке
+                    }
+
+                    event.stopPropagation();
+                });
+
+                // наведние на скрытый текст
+                row.addEventListener('mouseover', function() {
+                    p1.style.color = "#e14eca";
+                    dots.style.color = "#e14eca";
+                });
+
+                row.addEventListener('mouseout', function() {
+                    p1.style.color = "";
+                    dots.style.color = "";
+                });
+
+                // Обработчик события для закрытия окна при клике вне строки и на строку
+                document.addEventListener('click', function(event) {
+                    if (hiddenContent && event.target !== row && !hiddenContent.contains(event.target)) {
+                        p1.style.color = "rgba(255, 255, 255, 0.8)";
+                        dots.style.color = "rgba(255, 255, 255, 0.8)";
+                        card.removeChild(hiddenContent); // Удалите из карточки, а не строки
+                        hiddenContent = null;
+                        Card.style.display = 'none';
+                    }
+                });
+            }
         });
     });
-
-    // для iframe
-    const sellerRows = document.querySelectorAll('.seller');
-    const Card = document.querySelector('.overlay');
-
-    sellerRows.forEach(function(row) {
-        const sellerNames = row.querySelectorAll('.p_1_2');
-        const p1 = row.querySelector('.p1');
-        let hiddenContent = null;
-
-        const hasHiddenElements = sellerNames.length > 0;
-
-        if (hasHiddenElements) {
-            const card = row.closest('.card'); 
-            
-            const dots = document.createElement('span');
-            p1.appendChild(dots);
-            dots.textContent = "..."
-            p1.insertAdjacentElement('afterend', dots);
-
-            row.addEventListener('click', function(event) {
-
-                if (hiddenContent) {
-                    row.removeChild(hiddenContent);
-                    hiddenContent = null;
-                    
-                } else {
-                    hiddenContent = document.createElement('div'); // Используйте document.createElement
-                    hiddenContent.classList.add('hidden-content');
-                    hiddenContent.style.padding = '20px';
-                    hiddenContent.style.zIndex = '2000';
-                    hiddenContent.style.position = 'absolute';
-                    hiddenContent.style.right = ' 25%';
-                    hiddenContent.style.background = '#32325d';
-                    hiddenContent.style.borderRadius = '10px';
-                    hiddenContent.style.top = ' 35%';
-                    hiddenContent.style.width = '35%';
-                    hiddenContent.color = "white";
-                    hiddenContent.style.fontSize = "20px";
-                    hiddenContent.style.border = "1px solid";
-                    
-                    const p_card = document.createElement('p');
-                    hiddenContent.appendChild(p_card);
-                    p_card.textContent = "Sellers:"
-                    
-                    Card.style.display = 'flex';
-
-
-                    // Добавляем обработчик события click для скрытого окна
-                    hiddenContent.addEventListener('click', function(event) {
-                        event.stopPropagation(); // Предотвращаем всплытие события
-                    });
-
-                    sellerNames.forEach(function(name, i) {
-                        if (name.classList.contains('p_1_2')) {
-                            var sellerElement = document.createElement('p');
-                            sellerElement.textContent = (i+1)+ '.  ' + name.textContent;
-                            sellerElement.style.borderBottom = '1px solid';
-                            hiddenContent.appendChild(sellerElement);
-
-                        }
-                    });
-                    var paragraphElement = hiddenContent.querySelector('p');
-                    paragraphElement.style.textAlign = 'center';
-                    paragraphElement.style.borderBottom = '1px solid';
-                    
-                    
-                    card.appendChild(hiddenContent); // Добавьте карточке, а не строке
-                }
-
-                event.stopPropagation();
-            });
-            
-            // наведние на скрытый текст
-            row.addEventListener('mouseover', function () {
-                p1.style.color = "#e14eca";
-                dots.style.color = "#e14eca";
-            });
-
-            row.addEventListener('mouseout', function () {
-                p1.style.color = "";
-                dots.style.color = "";
-            });
-
-            // Обработчик события для закрытия окна при клике вне строки и на строку
-            document.addEventListener('click', function(event) {
-                if (hiddenContent && event.target !== row && !hiddenContent.contains(event.target)) {
-                    p1.style.color = "rgba(255, 255, 255, 0.8)";
-                    dots.style.color = "rgba(255, 255, 255, 0.8)";
-                    card.removeChild(hiddenContent); // Удалите из карточки, а не строки
-                    hiddenContent = null;
-                    Card.style.display = 'none';
-                }
-            });
-        }
-    });
-});
 </script>
 
 @endpush
-
