@@ -220,7 +220,7 @@
             <div class="">
                 <form action="" class="d-flex" style="justify-content: end;">
                     <div class="form-group mt-1">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seller">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Sellers">
                     </div>
                     <button type="button" class="btn btn-danger btn-sm btn-icon ml-2" style="height: 37px;width: 37px;">
                         X
@@ -416,6 +416,174 @@
                     } else {
                         hiddenContent = document.createElement('div'); // Используйте document.createElement
                         hiddenContent.classList.add('hidden-content');
+                        hiddenContent.style.zIndex = '2000';
+                        hiddenContent.style.position = 'absolute';
+                        hiddenContent.style.right = ' 25%';
+                        hiddenContent.style.background = 'rgba(50, 50, 93, 0.87)';
+                        hiddenContent.style.borderRadius = '10px';
+                        hiddenContent.style.top = ' 35%';
+                        hiddenContent.style.width = '35%';
+                        hiddenContent.color = "white";
+                        hiddenContent.style.fontSize = "20px";
+                        hiddenContent.style.border = "1px solid ";
+
+                        const p_card = document.createElement('h4');
+                        hiddenContent.appendChild(p_card);
+                        p_card.textContent = "Sellers:"
+                        p_card.style.width = "100%"
+                        p_card.style.backgroundColor = "rgb(147, 92, 155)"
+                        p_card.style.padding = '20px';
+                        p_card.style.borderTopRightRadius = '10px';
+                        p_card.style.borderTopLeftRadius = '10px';
+                        p_card.style.marginBottom = '0px';
+
+                        Card.style.display = 'flex';
+
+                        // Создайте таблицу
+                        const table = document.createElement('table');
+                        table.style.width = '100%';
+                        table.style.textAlign = 'center';
+                        hiddenContent.appendChild(table);
+
+                        // Создайте thead
+                        const thead = document.createElement('thead');
+                        table.appendChild(thead);
+                        thead.style.color = "white";
+
+                        // Создайте строку в thead
+                        const theadRow = document.createElement('tr');
+                        thead.appendChild(theadRow);
+
+                        // Создайте th для ID
+                        const idTh = document.createElement('th');
+                        idTh.textContent = 'ID';
+                        idTh.style.borderRight = '1px solid';
+                        idTh.style.borderBottom = '1px solid';
+                        theadRow.appendChild(idTh);
+
+                        // Создайте th для Name
+                        const nameTh = document.createElement('th');
+                        nameTh.textContent = 'Name';
+                        // nameTh.style.borderRight = '1px solid';
+                        nameTh.style.borderBottom = '1px solid';
+                        theadRow.appendChild(nameTh);
+
+                        // Создайте tbody
+                        const tbody = document.createElement('tbody');
+                        table.appendChild(tbody);
+
+                        sellerNames.forEach(function(name, i) {
+                            if (name.classList.contains('p_1_2')) {
+                                const sellerElement = document.createElement('tr');
+                                const idTd = document.createElement('td');
+                                idTd.textContent = i + 1;
+                                idTd.style.color = "white";
+                                idTd.style.borderRight = '1px solid';
+                                if (i < sellerNames.length - 1) {
+                                    idTd.style.borderBottom = '1px solid';
+                                }
+                                sellerElement.appendChild(idTd);
+                                const nameTd = document.createElement('td');
+                                nameTd.textContent = name.textContent;
+                                nameTd.style.color = "white";
+                                // nameTd.style.borderRight = '1px solid';
+                                if (i < sellerNames.length - 1) {
+                                    nameTd.style.borderBottom = '1px solid';
+                                }
+                                sellerElement.appendChild(nameTd);
+                                tbody.appendChild(sellerElement);
+                            }
+                        });
+
+
+                        var paragraphElement = hiddenContent.querySelector('h4');
+                        paragraphElement.style.textAlign = 'center';
+
+                        card.appendChild(hiddenContent); // Добавьте карточке, а не строке
+                    }
+
+                    event.stopPropagation();
+                });
+
+                // наведние на скрытый текст
+                row.addEventListener('mouseover', function() {
+                    p1.style.color = "#e14eca";
+                    dots.style.color = "#e14eca";
+                });
+
+                row.addEventListener('mouseout', function() {
+                    p1.style.color = "";
+                    dots.style.color = "";
+                });
+
+                // Обработчик события для закрытия окна при клике вне строки и на строку
+                document.addEventListener('click', function(event) {
+                    if (hiddenContent && event.target !== row && !hiddenContent.contains(event.target)) {
+                        p1.style.color = "rgba(255, 255, 255, 0.8)";
+                        dots.style.color = "rgba(255, 255, 255, 0.8)";
+                        card.removeChild(hiddenContent); // Удалите из карточки, а не строки
+                        hiddenContent = null;
+                        Card.style.display = 'none';
+                    }
+                });
+            }
+        });
+    });
+</script>
+@endpush
+
+
+<!-- for notes -->
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // для копирования по кнопке
+        const copyIcons = document.querySelectorAll('.icon');
+
+        copyIcons.forEach(function(icon) {
+            icon.addEventListener('click', function() {
+                const copyText = icon.getAttribute('data-copytext');
+                const tempInput = document.createElement('input');
+                tempInput.value = copyText;
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                document.execCommand('copy');
+                document.body.removeChild(tempInput);
+                icon.style.color = '#e14eca';
+
+                setTimeout(function() {
+                    icon.style.color = '';
+                }, 1000);
+            });
+        });
+
+        // для iframe
+        const sellerRows = document.querySelectorAll('.seller');
+        const Card = document.querySelector('.overlay');
+
+        sellerRows.forEach(function(row) {
+            const sellerNames = row.querySelectorAll('.p_1_2');
+            const p1 = row.querySelector('.p1');
+            let hiddenContent = null;
+
+            const hasHiddenElements = sellerNames.length > 0;
+
+            if (hasHiddenElements) {
+                const card = row.closest('.card');
+
+                const dots = document.createElement('span');
+                p1.appendChild(dots);
+                dots.textContent = "..."
+                p1.insertAdjacentElement('afterend', dots);
+
+                row.addEventListener('click', function(event) {
+
+                    if (hiddenContent) {
+                        row.removeChild(hiddenContent);
+                        hiddenContent = null;
+
+                    } else {
+                        hiddenContent = document.createElement('div'); // Используйте document.createElement
+                        hiddenContent.classList.add('hidden-content');
                         hiddenContent.style.padding = '20px';
                         hiddenContent.style.zIndex = '2000';
                         hiddenContent.style.position = 'absolute';
@@ -483,6 +651,4 @@
             }
         });
     });
-</script>
-
-@endpush
+</script> -->
