@@ -329,188 +329,191 @@
                 </form>
             </div>
 
-            <div class="d-block fixed-div">
+            <form action="">
 
-                <table class="table fixed-table ">
-                    <thead class=" text-primary">
-                        <tr>
-                            <th>Actions</th>
-                            <th>AD ID</th>
-                            <th>Creative</th>
-                            <th>Название</th>
-                            <th>Spend</th>
-                            <th>Status</th>
-                            <th>Клики по ссылке</th>
-                            <th>CPC</th>
-                            <th>Лиды</th>
-                            <th>CPL</th>
-                            <th>CR</th>
-                            <th>CTR</th>
-                            <th>CPM</th>
-                            <th>Расходы</th>
-
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" value="">
-                                        <span class="form-check-sign">
-                                            <span class="check"></span>
-                                        </span>
-                                    </label>
-                                </div>
-
-                            </td>
-                            <td>
-                                6233457631606
-                            </td>
-                            <td>
-                                <img style="width: 200px;" src="{{ asset('image/test.jpg') }}" class="card-img-top" alt="Картинка 1">
-                            </td>
-                            <td>
-                                Promotie lokaal bedrijf Eliens Beauty Palace
-                            </td>
-                            <td>
-                                -
-                            </td>
-                            <td>
-                                active
-                            </td>
-                            <td>
-                                365
-                            </td>
-                            <td>
-                                11
-                            </td>
-                            <td>
-                                0.98
-                            </td>
-                            <td>
-                                0
-                            </td>
-                            <td>
-                                0
-                            </td>
-                            <td>
-                                0
-                            </td>
-                            <td>
-                                3.01
-                            </td>
-                            <td>
-                                29.53
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" value="">
-                                        <span class="form-check-sign">
-                                            <span class="check"></span>
-                                        </span>
-                                    </label>
-                                </div>
-
-                            </td>
-                            <td>
-                                6233457631606
-                            </td>
-                            <td>
-                                <img style="width: 200px;" src="{{ asset('image/test.jpg') }}" class="card-img-top" alt="Картинка 1">
-                            </td>
-                            <td>
-                                Promotie lokaal bedrijf Eliens Beauty Palace
-                            </td>
-                            <td>
-                                -
-                            </td>
-                            <td>
-                                active
-                            </td>
-                            <td>
-                                365
-                            </td>
-                            <td>
-                                11
-                            </td>
-                            <td>
-                                0.98
-                            </td>
-                            <td>
-                                0
-                            </td>
-                            <td>
-                                0
-                            </td>
-                            <td>
-                                0
-                            </td>
-                            <td>
-                                3.01
-                            </td>
-                            <td>
-                                29.53
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" value="">
-                                        <span class="form-check-sign">
-                                            <span class="check"></span>
-                                        </span>
-                                    </label>
-                                </div>
-
-                            </td>
-                            <td>
-                                6233457631606
-                            </td>
-                            <td>
-                                <img style="width: 200px;" src="{{ asset('image/test.jpg') }}" class="card-img-top" alt="Картинка 1">
-                            </td>
-                            <td>
-                                Promotie lokaal bedrijf Eliens Beauty Palace
-                            </td>
-                            <td>
-                                -
-                            </td>
-                            <td>
-                                active
-                            </td>
-                            <td>
-                                365
-                            </td>
-                            <td>
-                                11
-                            </td>
-                            <td>
-                                0.98
-                            </td>
-                            <td>
-                                0
-                            </td>
-                            <td>
-                                0
-                            </td>
-                            <td>
-                                0
-                            </td>
-                            <td>
-                                3.01
-                            </td>
-                            <td>
-                                29.53
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                <div class="d-block fixed-div">
+    
+                    <table class="table fixed-table ">
+                        <thead class=" text-primary">
+                            <tr>
+                                <th>Actions</th>
+                                <th>AD ID</th>
+                                <th>Creative</th>
+                                <th>Название</th>
+                                <th>Spend</th>
+                                <th>Status</th>
+                                <th>Клики по ссылке</th>
+                                <th>CPC</th>
+                                <th>Лиды</th>
+                                <th>CPL</th>
+                                <th>CR</th>
+                                <th>CTR</th>
+                                <th>CPM</th>
+                                <th>Расходы</th>
+    
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" value="">
+                                            <span class="form-check-sign">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+    
+                                </td>
+                                <td>
+                                    6233457631606
+                                </td>
+                                <td>
+                                    <img style="width: 200px;" src="{{ asset('image/test.jpg') }}" class="card-img-top" alt="Картинка 1">
+                                </td>
+                                <td>
+                                    Promotie lokaal bedrijf Eliens Beauty Palace
+                                </td>
+                                <td>
+                                    -
+                                </td>
+                                <td>
+                                    active
+                                </td>
+                                <td>
+                                    365
+                                </td>
+                                <td>
+                                    11
+                                </td>
+                                <td>
+                                    0.98
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    3.01
+                                </td>
+                                <td>
+                                    29.53
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" value="">
+                                            <span class="form-check-sign">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+    
+                                </td>
+                                <td>
+                                    6233457631606
+                                </td>
+                                <td>
+                                    <img style="width: 200px;" src="{{ asset('image/test.jpg') }}" class="card-img-top" alt="Картинка 1">
+                                </td>
+                                <td>
+                                    Promotie lokaal bedrijf Eliens Beauty Palace
+                                </td>
+                                <td>
+                                    -
+                                </td>
+                                <td>
+                                    active
+                                </td>
+                                <td>
+                                    365
+                                </td>
+                                <td>
+                                    11
+                                </td>
+                                <td>
+                                    0.98
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    3.01
+                                </td>
+                                <td>
+                                    29.53
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" value="">
+                                            <span class="form-check-sign">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+    
+                                </td>
+                                <td>
+                                    6233457631606
+                                </td>
+                                <td>
+                                    <img style="width: 200px;" src="{{ asset('image/test.jpg') }}" class="card-img-top" alt="Картинка 1">
+                                </td>
+                                <td>
+                                    Promotie lokaal bedrijf Eliens Beauty Palace
+                                </td>
+                                <td>
+                                    -
+                                </td>
+                                <td>
+                                    active
+                                </td>
+                                <td>
+                                    365
+                                </td>
+                                <td>
+                                    11
+                                </td>
+                                <td>
+                                    0.98
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td>
+                                    3.01
+                                </td>
+                                <td>
+                                    29.53
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </form>
 
 
 

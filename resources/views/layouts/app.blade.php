@@ -60,6 +60,8 @@
             </a>
             <ul class="dropdown-menu">
 
+            <form action="">
+
                 <div class="row div_tasks">
                     <div class="div_row_tasks">
                         <h1 class=" ml-4 mt-3" >Tasks:</h1>
@@ -105,6 +107,7 @@
 
 
                 </div>
+            </form>
             </ul>
         </div>
     </div>

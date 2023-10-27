@@ -945,6 +945,9 @@
                     </button>
                 </form>
             </div>
+        <form action="">
+
+
 
            
             <div class="talbe-container">
@@ -1169,10 +1172,12 @@
                         <!-- Повторите блок .talbe-row для каждой строки таблицы -->
                     </div>
                 </div>
+        </form>
 
 
 
         </ul>
     </div>
 </div>
+
 @endsection

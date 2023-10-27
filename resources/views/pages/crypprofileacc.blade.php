@@ -282,326 +282,329 @@
                     <div class="form-group mt-1">
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seller">
                     </div>
-                    <button type="button" class="btn btn-danger btn-sm btn-icon ml-2" style="height: 37px;width: 37px;">
+                    <!-- <button type="button" class="btn btn-danger btn-sm btn-icon ml-2" style="height: 37px;width: 37px;">
                         X
-                    </button>
+                    </button> -->
                     <button type="button" class="btn btn-success btn-sm btn-icon ml-2" style="height: 37px;width: 37px;">
                         V
                     </button>
                 </form>
             </div>
 
-            <div class="d-block fixed-div">
+            <form action="">
 
-                <table class="table fixed-table ">
-                    <thead class=" text-primary">
-                        <tr>
-                            <th>Actions</th>
-                            <th>Рекламный кабинет</th>
-                            <th>Финансы</th>
-                            <th>Status Office</th>
-                            <th>Status API</th>
-
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="my-tr">
-                            <td>
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" value="">
-                                        <span class="form-check-sign">
-                                            <span class="check"></span>
-                                        </span>
-                                    </label>
-                                </div>
-
-                            </td>
-                            <td class="">
-                                <span class="float-span">SOC</span></br>
-                                <ul style="list-style-type: none;">
-                                    <li>
-                                        <div class="d-flex">
+                <div class="d-block fixed-div">
+    
+                    <table class="table fixed-table ">
+                        <thead class=" text-primary">
+                            <tr>
+                                <th>Actions</th>
+                                <th>Рекламный кабинет</th>
+                                <th>Финансы</th>
+                                <th>Status Office</th>
+                                <th>Status API</th>
+    
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="my-tr">
+                                <td>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" value="">
+                                            <span class="form-check-sign">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+    
+                                </td>
+                                <td class="">
+                                    <span class="float-span">SOC</span></br>
+                                    <ul style="list-style-type: none;">
+                                        <li>
+                                            <div class="d-flex">
+                                                <p>
+                                                    AD ACC ID: <a href="">522907474482429 </a>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
                                             <p>
-                                                AD ACC ID: <a href="">522907474482429 </a>
+    
+                                                Часовой пояс: TZ_ASIA_BANGKOK
                                             </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <p>
-
-                                            Часовой пояс: TZ_ASIA_BANGKOK
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-
-                                            Валюта: USD
-                                        </p>
-                                    </li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul style="list-style-type: none;">
-                                    <li>
-                                        <p>Spend: 0$</p>
-                                    </li>
-                                    <li>
-                                        <p>Unpaid: 100$</p>
-                                    </li>
-                                    <li>
-                                        <p>Тип: -</p>
-                                    </li>
-                                    <li>
-                                        <p>Лимит: 0$</p>
-                                    </li>
-                                    <li>
-                                        <p>Credit Card: -</p>
-                                    </li>
-                                </ul>
-                            </td>
-                            <td>
-                                <div class="d-block">
-                                    <button class="btn btn-danger btn-sm">DISABLED</button>
-                                </div>
-                                <div class="block mt-2">
-                                    <button class="btn btn-danger btn-sm">ADS_INTEGRITY_POLICY</button>
-                                </div>
-                            </td>
-                            <td class=" m-t-c">
-                                <div class="d-block">
-                                    <button class="btn btn-success btn-sm">GOOD</button>
-                                </div>
-                                <div class="block mt-2">
-                                    <button class="btn btn-success btn-sm">2023-06-05 03:00:35</button>
-                                </div>
-                            </td>
-
-
-                        </tr>
-                        <tr class="my-tr-2">
-                            <td>
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" value="">
-                                        <span class="form-check-sign">
-                                            <span class="check"></span>
-                                        </span>
-                                    </label>
-                                </div>
-
-                            </td>
-                            <td class="">
-                                <span class="float-span">BM</span></br>
-                                <ul style="list-style-type: none;">
-                                    <li>
-                                        <div class="d-flex">
+                                        </li>
+                                        <li>
                                             <p>
-                                                AD ACC ID: <a href="">522907474482429 </a>
+    
+                                                Валюта: USD
                                             </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <p>
-
-                                            Часовой пояс: TZ_ASIA_BANGKOK
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-
-                                            Валюта: USD
-                                        </p>
-                                    </li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul style="list-style-type: none;">
-                                    <li>
-                                        <p>Spend: 0$</p>
-                                    </li>
-                                    <li>
-                                        <p>Unpaid: 100$</p>
-                                    </li>
-                                    <li>
-                                        <p>Тип: -</p>
-                                    </li>
-                                    <li>
-                                        <p>Лимит: 0$</p>
-                                    </li>
-                                    <li>
-                                        <p>Credit Card: -</p>
-                                    </li>
-                                </ul>
-                            </td>
-                            <td>
-                                <div class="d-block">
-                                    <button class="btn btn-danger btn-sm">DISABLED</button>
-                                </div>
-                                <div class="block mt-2">
-                                    <button class="btn btn-danger btn-sm">ADS_INTEGRITY_POLICY</button>
-                                </div>
-                            </td>
-                            <td class=" m-t-c">
-                                <div class="d-block">
-                                    <button class="btn btn-success btn-sm">GOOD</button>
-                                </div>
-                                <div class="block mt-2">
-                                    <button class="btn btn-success btn-sm">2023-06-05 03:00:35</button>
-                                </div>
-                            </td>
-
-
-                        </tr>
-                        <tr >
-                            <td>
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" value="">
-                                        <span class="form-check-sign">
-                                            <span class="check"></span>
-                                        </span>
-                                    </label>
-                                </div>
-
-                            </td>
-                            <td class="">
-                                <ul style="list-style-type: none;">
-                                    <li>
-                                        <div class="d-flex">
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul style="list-style-type: none;">
+                                        <li>
+                                            <p>Spend: 0$</p>
+                                        </li>
+                                        <li>
+                                            <p>Unpaid: 100$</p>
+                                        </li>
+                                        <li>
+                                            <p>Тип: -</p>
+                                        </li>
+                                        <li>
+                                            <p>Лимит: 0$</p>
+                                        </li>
+                                        <li>
+                                            <p>Credit Card: -</p>
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <div class="d-block">
+                                        <button class="btn btn-danger btn-sm">DISABLED</button>
+                                    </div>
+                                    <div class="block mt-2">
+                                        <button class="btn btn-danger btn-sm">ADS_INTEGRITY_POLICY</button>
+                                    </div>
+                                </td>
+                                <td class=" m-t-c">
+                                    <div class="d-block">
+                                        <button class="btn btn-success btn-sm">GOOD</button>
+                                    </div>
+                                    <div class="block mt-2">
+                                        <button class="btn btn-success btn-sm">2023-06-05 03:00:35</button>
+                                    </div>
+                                </td>
+    
+    
+                            </tr>
+                            <tr class="my-tr-2">
+                                <td>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" value="">
+                                            <span class="form-check-sign">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+    
+                                </td>
+                                <td class="">
+                                    <span class="float-span">BM</span></br>
+                                    <ul style="list-style-type: none;">
+                                        <li>
+                                            <div class="d-flex">
+                                                <p>
+                                                    AD ACC ID: <a href="">522907474482429 </a>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
                                             <p>
-                                                AD ACC ID: <a href="">522907474482429 </a>
+    
+                                                Часовой пояс: TZ_ASIA_BANGKOK
                                             </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <p>
-
-                                            Часовой пояс: TZ_ASIA_BANGKOK
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-
-                                            Валюта: USD
-                                        </p>
-                                    </li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul style="list-style-type: none;">
-                                    <li>
-                                        <p>Spend: 0$</p>
-                                    </li>
-                                    <li>
-                                        <p>Unpaid: 100$</p>
-                                    </li>
-                                    <li>
-                                        <p>Тип: -</p>
-                                    </li>
-                                    <li>
-                                        <p>Лимит: 0$</p>
-                                    </li>
-                                    <li>
-                                        <p>Credit Card: -</p>
-                                    </li>
-                                </ul>
-                            </td>
-                            <td>
-                                <div class="d-block">
-                                    <button class="btn btn-danger btn-sm">DISABLED</button>
-                                </div>
-                                <div class="block mt-2">
-                                    <button class="btn btn-danger btn-sm">ADS_INTEGRITY_POLICY</button>
-                                </div>
-                            </td>
-                            <td class=" m-t-c">
-                                <div class="d-block">
-                                    <button class="btn btn-success btn-sm">GOOD</button>
-                                </div>
-                                <div class="block mt-2">
-                                    <button class="btn btn-success btn-sm">2023-06-05 03:00:35</button>
-                                </div>
-                            </td>
-
-
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" value="">
-                                        <span class="form-check-sign">
-                                            <span class="check"></span>
-                                        </span>
-                                    </label>
-                                </div>
-
-                            </td>
-                            <td class="">
-                                <ul style="list-style-type: none;">
-                                    <li>
-                                        <div class="d-flex">
+                                        </li>
+                                        <li>
                                             <p>
-                                                AD ACC ID: <a href="">522907474482429 </a>
+    
+                                                Валюта: USD
                                             </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <p>
-
-                                            Часовой пояс: TZ_ASIA_BANGKOK
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-
-                                            Валюта: USD
-                                        </p>
-                                    </li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul style="list-style-type: none;">
-                                    <li>
-                                        <p>Spend: 0$</p>
-                                    </li>
-                                    <li>
-                                        <p>Unpaid: 100$</p>
-                                    </li>
-                                    <li>
-                                        <p>Тип: -</p>
-                                    </li>
-                                    <li>
-                                        <p>Лимит: 0$</p>
-                                    </li>
-                                    <li>
-                                        <p>Credit Card: -</p>
-                                    </li>
-                                </ul>
-                            </td>
-                            <td>
-                                <div class="d-block">
-                                    <button class="btn btn-danger btn-sm">DISABLED</button>
-                                </div>
-                                <div class="block mt-2">
-                                    <button class="btn btn-danger btn-sm">ADS_INTEGRITY_POLICY</button>
-                                </div>
-                            </td>
-                            <td class=" m-t-c">
-                                <div class="d-block">
-                                    <button class="btn btn-success btn-sm">GOOD</button>
-                                </div>
-                                <div class="block mt-2">
-                                    <button class="btn btn-success btn-sm">2023-06-05 03:00:35</button>
-                                </div>
-                            </td>
-
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul style="list-style-type: none;">
+                                        <li>
+                                            <p>Spend: 0$</p>
+                                        </li>
+                                        <li>
+                                            <p>Unpaid: 100$</p>
+                                        </li>
+                                        <li>
+                                            <p>Тип: -</p>
+                                        </li>
+                                        <li>
+                                            <p>Лимит: 0$</p>
+                                        </li>
+                                        <li>
+                                            <p>Credit Card: -</p>
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <div class="d-block">
+                                        <button class="btn btn-danger btn-sm">DISABLED</button>
+                                    </div>
+                                    <div class="block mt-2">
+                                        <button class="btn btn-danger btn-sm">ADS_INTEGRITY_POLICY</button>
+                                    </div>
+                                </td>
+                                <td class=" m-t-c">
+                                    <div class="d-block">
+                                        <button class="btn btn-success btn-sm">GOOD</button>
+                                    </div>
+                                    <div class="block mt-2">
+                                        <button class="btn btn-success btn-sm">2023-06-05 03:00:35</button>
+                                    </div>
+                                </td>
+    
+    
+                            </tr>
+                            <tr >
+                                <td>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" value="">
+                                            <span class="form-check-sign">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+    
+                                </td>
+                                <td class="">
+                                    <ul style="list-style-type: none;">
+                                        <li>
+                                            <div class="d-flex">
+                                                <p>
+                                                    AD ACC ID: <a href="">522907474482429 </a>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p>
+    
+                                                Часовой пояс: TZ_ASIA_BANGKOK
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+    
+                                                Валюта: USD
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul style="list-style-type: none;">
+                                        <li>
+                                            <p>Spend: 0$</p>
+                                        </li>
+                                        <li>
+                                            <p>Unpaid: 100$</p>
+                                        </li>
+                                        <li>
+                                            <p>Тип: -</p>
+                                        </li>
+                                        <li>
+                                            <p>Лимит: 0$</p>
+                                        </li>
+                                        <li>
+                                            <p>Credit Card: -</p>
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <div class="d-block">
+                                        <button class="btn btn-danger btn-sm">DISABLED</button>
+                                    </div>
+                                    <div class="block mt-2">
+                                        <button class="btn btn-danger btn-sm">ADS_INTEGRITY_POLICY</button>
+                                    </div>
+                                </td>
+                                <td class=" m-t-c">
+                                    <div class="d-block">
+                                        <button class="btn btn-success btn-sm">GOOD</button>
+                                    </div>
+                                    <div class="block mt-2">
+                                        <button class="btn btn-success btn-sm">2023-06-05 03:00:35</button>
+                                    </div>
+                                </td>
+    
+    
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" value="">
+                                            <span class="form-check-sign">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+    
+                                </td>
+                                <td class="">
+                                    <ul style="list-style-type: none;">
+                                        <li>
+                                            <div class="d-flex">
+                                                <p>
+                                                    AD ACC ID: <a href="">522907474482429 </a>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p>
+    
+                                                Часовой пояс: TZ_ASIA_BANGKOK
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+    
+                                                Валюта: USD
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul style="list-style-type: none;">
+                                        <li>
+                                            <p>Spend: 0$</p>
+                                        </li>
+                                        <li>
+                                            <p>Unpaid: 100$</p>
+                                        </li>
+                                        <li>
+                                            <p>Тип: -</p>
+                                        </li>
+                                        <li>
+                                            <p>Лимит: 0$</p>
+                                        </li>
+                                        <li>
+                                            <p>Credit Card: -</p>
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <div class="d-block">
+                                        <button class="btn btn-danger btn-sm">DISABLED</button>
+                                    </div>
+                                    <div class="block mt-2">
+                                        <button class="btn btn-danger btn-sm">ADS_INTEGRITY_POLICY</button>
+                                    </div>
+                                </td>
+                                <td class=" m-t-c">
+                                    <div class="d-block">
+                                        <button class="btn btn-success btn-sm">GOOD</button>
+                                    </div>
+                                    <div class="block mt-2">
+                                        <button class="btn btn-success btn-sm">2023-06-05 03:00:35</button>
+                                    </div>
+                                </td>
+    
+    
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </form>
 
 
 
